@@ -1,0 +1,41 @@
+17:02:12 [INFO] Using standard Java JCE cipher.
+17:02:12 [INFO] Using standard Java compressor.
+17:02:12 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:697f087:1487
+17:02:12 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:02:12 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:12 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+17:02:13 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:504)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)

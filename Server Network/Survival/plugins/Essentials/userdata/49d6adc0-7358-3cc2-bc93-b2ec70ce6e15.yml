@@ -1,0 +1,29 @@
+lastAccountName: TheBlartster
+timestamps:
+  login: 1588831980497
+  lastteleport: 1588832494336
+  logout: 1588832617540
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world_nether
+  x: 2.937054286859393
+  y: 231.0
+  z: 0.6981844997410147
+  yaw: 90.41846
+  pitch: 63.32186
+money: '1900.0'
+homes:
+  home:
+    world: world
+    x: 199.39210929415978
+    y: 75.0
+    z: -111.86490934568023
+    yaw: 310.0051
+    pitch: 15.941872
+logoutlocation:
+  world: world
+  x: 534.1916566471052
+  y: 82.0
+  z: -376.7223619193179
+  yaw: -268.6615
+  pitch: 11.722992

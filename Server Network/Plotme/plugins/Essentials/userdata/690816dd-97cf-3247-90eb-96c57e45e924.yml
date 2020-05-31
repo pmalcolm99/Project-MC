@@ -1,0 +1,20 @@
+lastAccountName: Thany
+timestamps:
+  login: 1584898691518
+  lastteleport: 1584898892261
+  logout: 1584898897376
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plot1
+  x: -42.16247171393401
+  y: 65.5
+  z: -47.87336117921984
+  yaw: -276.73224
+  pitch: 22.20024
+logoutlocation:
+  world: world
+  x: -3.131486627979163
+  y: 5.0
+  z: -7.4846395003837705
+  yaw: -90.80597
+  pitch: 10.799974

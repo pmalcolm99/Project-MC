@@ -1,0 +1,9 @@
+{
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-03-22 11:37:27 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 2230
+}

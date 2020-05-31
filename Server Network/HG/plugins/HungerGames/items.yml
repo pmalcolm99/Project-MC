@@ -1,0 +1,88 @@
+items:
+
+#General Syntax:
+
+#Rarity Tags~~~
+#Common (Gray):                    lore:&7Common_Item
+#Rare (Dark Purple:                lore:&5Rare_Item
+#Mythic (Dark Green):              lore:&2Mythic_Item
+#Legendary (Dark Red):             lore:&4Legendary_Item
+#Class Item (Aqua):                lore:&b?_Class_Item
+
+#Color Tags:
+#Dark Red       &4
+#Red            &c
+#Gold           &6
+#Yellow         &e
+#Dark Green     &2
+#Green          &a
+#Aqua           &b
+#Dark Aqua      &3
+#Dark Blue      &1
+#Blue           &9
+#Light Purple   &d
+#Dark Purple    &5
+#White          &f
+#Gray           &7
+#Dark Gray      &8
+#Black          &0
+
+#FOOD
+- MUSHROOM_STEW 1 x:2 lore:&7Common_Item
+- APPLE 2 x:6 lore:&7Common_Item
+- PUMPKIN_PIE 2 x:4 lore:&7Common_Item
+- COOKIE 2 x:6 lore:&7Common_Item
+- MELON_SLICE 3 x:6 lore:&7Common_Item
+- COOKED_BEEF 1 x:4 lore:&5Rare_Item
+
+#ARMOR
+- LEATHER_HELMET 1 x:6 lore:&7Common_Item
+- LEATHER_CHESTPLATE 1 x:6 lore:&7Common_Item
+- LEATHER_LEGGINGS 1 x:6 lore:&7Common_Item
+- LEATHER_BOOTS 1 x:6 lore:&7Common_Item
+- IRON_HELMET 1 x:2 lore:&5Rare_Item
+- IRON_CHESTPLATE 1 x:2 lore:&5Rare_Item
+- IRON_LEGGINGS 1 x:2 lore:&5Rare_Item
+- IRON_BOOTS 1 x:2 lore:&5Rare_Item
+- GOLDEN_HELMET 1 x:4 name:&6Gilded_Helm lore:&7Common_Item
+- GOLDEN_CHESTPLATE 1 x:4 name:&6Gold-Plate_Armor lore:&7Common_Item
+- GOLDEN_LEGGINGS 1 x:4 name:&6Gold-Plate_Greaves lore:&7Common_Item
+- GOLDEN_BOOTS 1 x:4 name:&6Gilded_Boots lore:&7Common_Item
+- CHAINMAIL_CHESTPLATE 1 x:2 enchant:thorns:2 name:&8Spikemail_Breastplate lore:&7Common_Item
+- CHAINMAIL_LEGGINGS 1 x:2 enchant:thorns:2 name:&8Spikemail_Greaves lore:&7Common_Item
+
+#WEAPONS
+- BOW 1 x:2 lore:&5Rare_Item
+- ARROW 3 x:8 lore:&7Common_Item
+- IRON_SWORD 1 enchant:sharpness:1 name:&6Paladin's_Blade lore:&2Mythic_Item
+- STONE_SWORD 1 x:6 lore:&7Common_Item
+- GOLDEN_SWORD 1 x:4 lore:&7Common_Item
+- IRON_SWORD 1 x:2 lore:&5Rare_Item
+- GOLDEN_SWORD 1 name:&4Hellblade enchant:fire_aspect:2:sharpness:2 lore:&2Mythic_Item
+
+#SUPPORT ITEMS
+- MILK_BUCKET 1 x:2 lore:&5Rare_Item
+- FISHING_ROD 1 x:2 lore:&5Rare_Item
+
+#POTIONS
+- POTION 1 potion:SPEED:900:1 1 color:white name:&3Potion_of_Celerity lore:&5Rare_Item
+- POTION 1 potion:HEAL:1:0 1 color:blue name:&cPotion_of_Healing lore:&5Rare_Item
+- SPLASH_POTION 1 potion:REGENERATION:200:1 1 x:2 color:light_blue name:&6Splash_Potion_of_Regeneration lore:&2Mythic_Item
+- SPLASH_POTION 1 potion:INSTANT_DAMAGE:1:1 color:black x:2 name:&8Pain_In_A_Bottle lore:&2Mythic_Item
+
+bonus:
+#ONLY ONE ITEM GENERATES PER CHEST
+- DIAMOND_SWORD 1 enchant:sharpness:2 name:&3Null_Blade lore:&4Legendary_Item
+- DIAMOND_CHESTPLATE 1 enchant:protection:3 name:&dBreastplate_of_Athena lore:&4Legendary_Item
+- BOW 1 enchant:power:2 name:&6Ares'_Warbow lore:&4Legendary_Item
+- BOW 1 enchant:flame:1:power:1 name:&6Hellfire lore:&4Legendary_Item
+- TRIDENT 1 enchant:loyalty:1 name:&6Poseidon's_Wrath lore:&4Legendary_Item
+- DIAMOND_BOOTS 1 enchant:feather_falling:4 name:&aCloud_Boots lore:&4Legendary_Item
+- TURTLE_HELMET 1 enchant:protection:2 name:&1Helm_Of_The_Drowned lore:&4Legendary_Item
+- SPLASH_POTION 1 potion:POISON:320:1 1 color:green name:&2Potion_of_Infection lore:&2Mythic_Item
+- ENDER_PEARL 1 name:&8Ender_Pearl lore:&2Mythic_Item
+- GOLDEN_APPLE 2 name:&6Golden_Apple lore:&2Mythic_Item
+- LINGERING_POTION 1 potion:SLOWNESS:60:3 color:blue name:&rDebilitating_Cloud lore:&4Legendary_Item
+- STICK 1 name:&6Tracking_Stick_&aUses:_5 lore:&7Left_click_in_the_air:&7to_find_nearby_players:&4Legendary_Item
+- TIPPED_ARROW 3 potion:POISON:320:2 1 name:&aToxic_Arrow color:green lore:&4Legendary_Item
+- TRIDENT 1 enchant:riptide:1:sharpness:1 name:&5Gravity_Spear lore:&4Legendary_Item:&9Can_only_be_thrown_in_water!

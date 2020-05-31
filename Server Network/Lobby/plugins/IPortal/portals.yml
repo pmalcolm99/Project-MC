@@ -1,0 +1,31 @@
+portals:
+  hg:
+    world: world
+    x: 64.0
+    y: 97.0
+    z: -15.0
+    x2: 64.0
+    y2: 105.0
+    z2: -11.0
+    type: BUNGEE
+    tpto: hg
+  plot:
+    world: world
+    x: 69.0
+    y: 97.0
+    z: -2.0
+    x2: 69.0
+    y2: 105.0
+    z2: 2.0
+    type: BUNGEE
+    tpto: plotme
+  survival:
+    world: world
+    x: 64.0
+    y: 97.0
+    z: 11.0
+    x2: 64.0
+    y2: 105.0
+    z2: 15.0
+    type: BUNGEE
+    tpto: survival

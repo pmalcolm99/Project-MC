@@ -1,0 +1,19 @@
+lastAccountName: FizzWafffle
+timestamps:
+  login: 1586991191495
+  logout: 1586991196293
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 0.5438790695123901
+  y: 100.0
+  z: 0.5256363518871026
+  yaw: 89.54975
+  pitch: 3.1500316
+logoutlocation:
+  world: world
+  x: 0.7296403829099329
+  y: 100.0
+  z: 0.7296403829099329
+  yaw: -0.27124676
+  pitch: 0.23734093

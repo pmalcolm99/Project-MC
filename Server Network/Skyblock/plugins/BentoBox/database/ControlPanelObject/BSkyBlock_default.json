@@ -1,0 +1,68 @@
+{
+  "uniqueId": "BSkyBlock_default",
+  "defaultPanel": true,
+  "gameMode": "BSkyBlock",
+  "permissionSuffix": "default",
+  "panelName": "&1Commands",
+  "panelButtons": [
+    {
+      "slot": 0,
+      "material": "GRASS",
+      "description": "Go to your island",
+      "command": "[label] go"
+    },
+    {
+      "slot": 8,
+      "material": "LAVA_BUCKET",
+      "description": "Open your island settings",
+      "command": "[label] settings"
+    },
+    {
+      "slot": 3,
+      "description": "List team members",
+      "command": "[label] team"
+    },
+    {
+      "slot": 1,
+      "material": "WHITE_BED",
+      "description": "Set your home here",
+      "command": "[label] sethome"
+    },
+    {
+      "slot": 9,
+      "material": "ACACIA_STAIRS",
+      "description": "Island level |Level: %Level_bskyblock-island-level%",
+      "command": "[label] level"
+    },
+    {
+      "slot": 10,
+      "material": "BOOK",
+      "description": "List the Top 10 islands",
+      "command": "[label] top"
+    },
+    {
+      "slot": 12,
+      "material": "OAK_SIGN",
+      "description": "List warps available",
+      "command": "[label] warps"
+    },
+    {
+      "slot": 5,
+      "material": "BEDROCK",
+      "description": "Go to world spawn",
+      "command": "[label] spawn"
+    },
+    {
+      "slot": 14,
+      "material": "OAK_SAPLING",
+      "description": "Biomes",
+      "command": "[label] biomes"
+    },
+    {
+      "slot": 15,
+      "material": "ENCHANTING_TABLE",
+      "description": "Challenges",
+      "command": "[label] challenges"
+    }
+  ]
+}

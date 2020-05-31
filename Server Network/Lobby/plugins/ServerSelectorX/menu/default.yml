@@ -1,0 +1,77 @@
+# Number of rows of slots of your server selector menu. For example '2' will mean 2*9 = 18 slots. Max value is 6.
+rows: 1
+
+# This will be displayed as the title of the menu.
+title: 'Game Selector'
+
+# This will be the name of the server selector item
+item-name: 'Game Selector'
+
+item-lore:
+- 'Games for one!'
+- 'Games for all!'
+
+# The name of the server selector item.
+item: COMPASS
+
+# Give the item when a player joins?
+on-join: true
+
+# What slot should the item be in? Specify -1 to automatically put it in the first available slot.
+inv-slot: 0
+
+# URL clickable message
+url-message: '&3&lClick here'
+
+# Command to open the menu. Specify "none" for no command. (without /)
+command: "menu"
+
+# https://github.com/ServerSelectorX/ServerSelectorX/wiki/Free-%7C-Items-in-the-server-selector
+menu:
+
+  # Server item
+  4:
+  
+    # Server pinging help: https://github.com/ServerSelectorX/ServerSelectorX/wiki/Free-%7C-Server-Pinging
+    # With server pinging disabled, the placeholders don't work and the plugin will always use the offline section.
+    ping-server: true
+    ip: 192.168.1.3
+    port: 25568
+    
+    # Action to run when the item is clicked
+    action: 'srv:hg'
+
+    online:
+      item: DIAMOND_SWORD
+      name: '&aHunger Games'
+      lore:
+       - 'There are {online} out of {max} players online.'
+       - 'Message of the day: {motd}'
+
+    offline:
+      item: DIAMOND_SWORD
+      name: '&aHunger Games'
+      lore:
+       - The original Battle Royale
+
+  # Message item
+  0:
+    action: 'srv:survival'
+    offline:
+      item: 'DIAMOND_PICKAXE' # You can use head:auto to get the head of the player opening the menu, or head:someuuid to get the head of a specific player.
+      name: 'Survival World'
+      lore:
+       - Back to the Basics!
+  8:
+    action: 'srv:plotme'
+    offline:
+      item: 'head:auto' # You can use head:auto to get the head of the player opening the menu, or head:someuuid to get the head of a specific player.
+      name: 'Creative Plot World'
+      lore:
+       - The only limitation is imagination!
+  
+  # No action item
+  -1: # -1 means everything else
+    action: 'none'
+    offline:
+      item: LIGHT_GRAY_STAINED_GLASS_PANE

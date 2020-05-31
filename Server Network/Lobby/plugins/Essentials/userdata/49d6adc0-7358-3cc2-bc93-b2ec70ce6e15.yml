@@ -1,0 +1,20 @@
+lastAccountName: TheBlartster
+timestamps:
+  login: 1588831965504
+  logout: 1588831980130
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -109.44790264248337
+  y: 95.0
+  z: -4.7284685592756865
+  yaw: -279.81046
+  pitch: 0.16299304
+logoutlocation:
+  world: world
+  x: 0.0
+  y: 100.0
+  z: 0.0
+  yaw: 0.74450564
+  pitch: 0.62042135
+money: '1900.0'

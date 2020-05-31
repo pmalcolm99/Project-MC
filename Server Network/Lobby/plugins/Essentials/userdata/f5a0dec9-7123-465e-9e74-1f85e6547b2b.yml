@@ -1,0 +1,30 @@
+lastAccountName: SovietPhenix
+timestamps:
+  login: 1584152230267
+  logout: 1584153202558
+  lastteleport: 1584152294199
+ipAddress: 138.67.218.216
+lastlocation:
+  world: survival
+  x: 527.0868472715648
+  y: 83.0
+  z: -286.0164871359485
+  yaw: 150.89774
+  pitch: 41.400356
+logoutlocation:
+  world: survival
+  x: 510.7368503292671
+  y: 80.0
+  z: -311.1403521207349
+  yaw: -187.64255
+  pitch: 13.201971
+homes:
+  home:
+    world: survival
+    x: 466.704749712278
+    y: 79.0
+    z: -344.3917426511217
+    yaw: 354.6009
+    pitch: 20.550423
+money: '0.0'
+afk: false

@@ -1,0 +1,291 @@
+[10:53:21] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[10:53:21] [Server thread/INFO]: Loading properties
+[10:53:22] [Server thread/INFO]: This server is running Paper version git-Paper-143 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[10:53:22] [Server thread/INFO]: Debug logging is disabled
+[10:53:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:53:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:53:22] [Server thread/INFO]: Default game type: SURVIVAL
+[10:53:22] [Server thread/INFO]: Generating keypair
+[10:53:22] [Server thread/INFO]: Starting Minecraft server on *:25566
+[10:53:22] [Server thread/INFO]: Using default channel type
+[10:53:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[10:53:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[10:53:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@13722edd]
+[10:53:25] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[10:53:25] [Server thread/INFO]: [ServerSelectorX] Loading ServerSelectorX v3.5.4
+[10:53:25] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[10:53:25] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[10:53:25] [Server thread/INFO]: [IPortal] Loading IPortal v1.13
+[10:53:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[10:53:25] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
+[10:53:25] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[10:53:25] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[10:53:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:53:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[10:53:25] [Server thread/INFO]:         __    
+[10:53:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[10:53:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:53:25] [Server thread/INFO]: 
+[10:53:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:53:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:53:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:53:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:53:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4618ms)
+[10:53:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[10:53:29] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[10:53:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:53:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[10:53:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[10:53:32] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[10:53:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:53:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:53:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[10:53:32] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[10:53:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:53:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:53:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:53:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:53:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:53:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:53:33] [Server thread/INFO]: Preparing level "world"
+[10:53:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[10:53:34] [Server thread/INFO]: Loaded 6 recipes
+[10:53:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:53:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:53:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:53:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:53:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:53:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:53:35] [Server thread/INFO]: View Distance: 10
+[10:53:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:53:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:53:35] [Server thread/INFO]: Mob Spawn Range: 8
+[10:53:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:53:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:53:35] [Server thread/INFO]: Max TNT Explosions: 100
+[10:53:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:53:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:53:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:53:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:53:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:53:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:53:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:53:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:53:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:53:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:53:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:53:36] [Server thread/INFO]: View Distance: 10
+[10:53:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:53:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:53:36] [Server thread/INFO]: Mob Spawn Range: 8
+[10:53:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:53:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:53:36] [Server thread/INFO]: Max TNT Explosions: 100
+[10:53:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:53:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:53:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:53:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:53:36] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[10:53:37] [Server thread/INFO]: Preparing spawn area: 0%
+[10:53:37] [Server thread/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-6/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-5/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[10:53:41] [Server thread/INFO]: Preparing spawn area: 35%
+[10:53:42] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[10:53:42] [Server thread/INFO]: Time elapsed: 5477 ms
+[10:53:42] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[10:53:42] [Server thread/INFO]: Preparing spawn area: 0%
+[10:53:42] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[10:53:43] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[10:53:43] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[10:53:43] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[10:53:43] [Server thread/INFO]: Time elapsed: 1794 ms
+[10:53:43] [Server thread/INFO]: [ServerSelectorX] Enabling ServerSelectorX v3.5.4
+[10:53:44] [Server thread/INFO]: [ServerSelectorX] Thank you for using ServerSelectorX. If you enjoy using this plugin, please consider buying the premium version. It has more features and placeholders update instantly. https://github.com/ServerSelectorX/ServerSelectorX/wiki/Premium
+[10:53:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[10:53:44] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[10:53:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[10:53:44] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[10:53:44] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[10:53:45] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[10:53:45] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[10:53:45] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[10:53:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:53:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:53:45] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:53:45] [Server thread/INFO]: [IPortal] Enabling IPortal v1.13
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=-15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=-11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=-12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=-13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=-14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=-15}
+[10:53:45] [Server thread/INFO]: [iPortal] hg portal successfully Loaded!
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=104, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=104, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=104, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=104, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=104, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=103, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=103, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=103, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=103, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=103, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=102, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=102, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=102, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=102, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=102, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=101, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=101, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=101, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=101, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=101, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=100, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=100, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=100, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=100, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=100, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=99, z=-2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=99, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=99, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=99, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=99, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=98, z=2}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=98, z=1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=98, z=0}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=98, z=-1}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=69, y=98, z=-2}
+[10:53:45] [Server thread/INFO]: [iPortal] plot portal successfully Loaded!
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=104, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=103, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=102, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=101, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=100, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=11}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=99, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=15}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=14}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=13}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=12}
+[10:53:45] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=64, y=98, z=11}
+[10:53:45] [Server thread/INFO]: [iPortal] survival portal successfully Loaded!
+[10:53:45] [Server thread/INFO]: [iPortal] portals.yml file successfully Loaded!
+[10:53:45] [Server thread/INFO]: [iPortal] IPortal has been enabled!
+[10:53:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[10:53:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:53:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:53:46] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[10:53:46] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[10:53:46] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[10:53:46] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[10:53:46] [Server thread/INFO]: [Essentials] Using locale en_US
+[10:53:46] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:53:46] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:53:46] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[10:53:46] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:53:46] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
+[10:53:46] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[10:53:46] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[10:53:46] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[10:53:49] [Server thread/INFO]: Done (16.082s)! For help, type "help"
+[10:53:49] [Server thread/INFO]: Timings Reset
+[10:53:49] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[10:53:49] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available

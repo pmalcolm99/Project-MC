@@ -1,0 +1,102 @@
+# 
+# Revamped by: ShaneBee
+# 
+# Issues: Please report issues on the BitBucket issue tracker @ https://bitbucket.org/ShaneBeeStudios/hungergames/issues?status=new&status=open
+# Updates: Can be found on SpigotMC @ --- coming soon
+# 
+# More Info: See the wiki for more info on this config @ https://bitbucket.org/ShaneBeeStudios/HungerGames/wiki/Config.yml
+
+settings:
+  spawn-mobs: false
+  spawn-mobs-interval: 35
+  free-roam: 25
+  bossbar-countdown: true
+  trackingstick-uses: 8
+  players-for-trackingstick: 2
+  max-chestcontent: 5
+  min-chestcontent: 1
+  max-bonus-chestcontent: 1
+  min-bonus-chestcontent: 1
+  teleport-at-end: false
+  teleport-at-end-time: 30
+  max-team-size: 3
+  globalexit: world:-24:10:-24:89.7001:4.6500363
+reward:
+  enabled: true
+  cash: 500
+  commands:
+  - none
+  messages:
+  - none
+random-chest:
+  enabled: false
+  interval: 60
+  max-chestcontent: 6
+rollback:
+  allow-block-break: true
+  blocks-per-second: 500
+  protect-during-cooldown: true
+  fix-leaves: true
+  prevent-trampling: true
+  editable-blocks:
+  - GRASS
+  - TALL_GRASS
+  - GLASS
+  - OAK_LEAVES
+  - BIRCH_LEAVES
+  - SPRUCE_LEAVES
+  - DARK_OAK_LEAVES
+  - JUNGLE_LEAVES
+  - ACACIA_LEAVES
+  - GLASS_PANE
+world-border:
+  enabled: true
+  initiate-on-start: false
+  countdown-start: 60
+  countdown-end: 30
+  final-border-size: 30
+  center-on-first-spawn: false
+spectate:
+  enabled: true
+  death-to-spectate: true
+  hide-spectators: true
+  fly: true
+  chat: false
+mcmmo:
+  use-skills: false
+  gain-experience: false
+kits:
+  brawler:
+    permission: none
+    helmet: none
+    chestplate: LEATHER_CHESTPLATE color:red name:&cBrawler's_Chestguard lore:&bBrawler_Class_Item
+    leggings: none
+    boots: LEATHER_BOOTS color:red name:&cBrawler's_Footwraps lore:&bBrawler_Class_Item
+    items:
+    - WOODEN_SWORD name:&cBrawler's_Sword lore:&bBrawler_Class_Item
+    - POTION potion:STRENGTH:400:0 2 name:&cBrawler's_Strength_Elixir lore:&bBrawler_Class_Item
+    potion-effects:
+    - RESISTANCE:0:forever
+  knight:
+    permission: none
+    helmet: GOLDEN_HELMET enchant:protection:1 name:&7Knight's_Helm lore:&bKnight_Class_Item
+    chestplate: IRON_CHESTPLATE enchant:projectile_protection:1 name:&7Knight's_Breastplate
+      lore:&bKnight_Class_Item
+    leggings: none
+    boots: none
+    items:
+    - GOLDEN_SWORD 1 name:&7Knight's_Blade lore:&bKnight_Class_Item
+    - BREAD 4 name:&rRations lore:&bKnight_Class_Item
+    - POTION potion:RESISTANCE:200:2 2 name:&bVanguard_Elixir lore:&bKnight_Class_Item
+  phantom:
+    permission: none
+    helmet: none
+    chestplate: none
+    leggings: none
+    boots: LEATHER_BOOTS color:black enchant:feather_falling:2; name:&0Cursed_Boots
+      lore:&bPhantom_Class_Item
+    items:
+    - STONE_SWORD name:&7Phantom_Cutlass lore:&bPhantom_Class_Item
+    - BOW name: lore:&bPhantom_Class_Item
+    - POTION potion:INVISIBILITY:400:0;SPEED:400:1 2 color:black name:&0Ethereal_Potion
+      lore:&bPhantom_Class_Item

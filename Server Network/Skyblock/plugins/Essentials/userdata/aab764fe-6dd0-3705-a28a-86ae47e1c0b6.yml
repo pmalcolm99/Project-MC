@@ -1,0 +1,22 @@
+lastAccountName: dudesentee
+timestamps:
+  login: 1586318888079
+  logout: 1586318898692
+  lastteleport: 1586315631915
+ipAddress: 127.0.0.1
+money: '322.0'
+logoutlocation:
+  world: bskyblock_world
+  x: 2.2412054376108435
+  y: 123.39524897453973
+  z: 16.091276317122237
+  yaw: 105.749695
+  pitch: 52.34994
+afk: false
+lastlocation:
+  world: bskyblock_world
+  x: 0.3565338452926208
+  y: 125.0
+  z: 2.5505968991863215
+  yaw: -188.0996
+  pitch: 7.0499797

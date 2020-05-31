@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2020-03-21 19:48:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2020-03-21 19:48:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2020-03-21 19:50:03 -0600",
+      "minecraft:badlands_plateau": "2020-03-21 19:49:47 -0600",
+      "minecraft:desert": "2020-03-21 19:49:17 -0600",
+      "minecraft:frozen_river": "2020-03-21 19:49:45 -0600",
+      "minecraft:badlands": "2020-03-21 19:49:21 -0600",
+      "minecraft:river": "2020-03-21 19:49:55 -0600",
+      "minecraft:plains": "2020-03-21 19:48:02 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

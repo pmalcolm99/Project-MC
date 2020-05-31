@@ -1,0 +1,21 @@
+portals:
+  Survival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: dudesentee
+    location: 127.0,98.0,60.0:127.0,106.0,66.0
+    world: world
+    destination: survival
+  HungerGames:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: dudesentee
+    location: 127.0,97.0,34.0:127.0,105.0,40.0
+    world: world
+    destination: hg

@@ -1,0 +1,14 @@
+{
+  "uniqueId": "BSkyBlock452e7abd-b486-491d-9f84-d5d3481bd485",
+  "gameMode": "BSkyBlock",
+  "blockCount": {
+    "OAK_SIGN": 1,
+    "HEAVY_WEIGHTED_PRESSURE_PLATE": 1,
+    "TRIPWIRE": 2,
+    "GRAY_CARPET": 2,
+    "OAK_WALL_SIGN": 1,
+    "QUARTZ_BLOCK": 1
+  },
+  "blockLimits": {},
+  "entityLimits": {}
+}

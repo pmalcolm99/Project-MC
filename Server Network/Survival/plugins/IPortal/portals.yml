@@ -1,0 +1,41 @@
+portals:
+  lobby2:
+    world: world
+    x: -173.0
+    y: 99.0
+    z: -245.0
+    x2: -173.0
+    y2: 113.0
+    z2: -259.0
+    type: BUNGEE
+    tpto: lobby
+  lobby3:
+    world: world
+    x: -212.0
+    y: 99.0
+    z: -245.0
+    x2: -212.0
+    y2: 113.0
+    z2: -259.0
+    type: BUNGEE
+    tpto: lobby
+  random1:
+    world: world
+    x: -190.0
+    y: 101.0
+    z: -237.0
+    x2: -195.0
+    y2: 99.0
+    z2: -237.0
+    type: RANDOM
+    tpto: '10000'
+  random2:
+    world: world
+    x: -195.0
+    y: 99.0
+    z: -267.0
+    x2: -190.0
+    y2: 101.0
+    z2: -267.0
+    type: RANDOM
+    tpto: '10000'

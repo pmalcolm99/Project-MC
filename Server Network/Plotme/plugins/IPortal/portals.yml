@@ -1,0 +1,21 @@
+portals:
+  plotworld:
+    world: world
+    x: -12.0
+    y: 4.0
+    z: -8.0
+    x2: -12.0
+    y2: 7.0
+    z2: -8.0
+    type: DEFAULT
+    tpto: plot1:141:65:-2:-183.45508:10.799895
+  lobby:
+    world: world
+    x: -4.0
+    y: 4.0
+    z: -8.0
+    x2: -4.0
+    y2: 7.0
+    z2: -8.0
+    type: BUNGEE
+    tpto: lobby
