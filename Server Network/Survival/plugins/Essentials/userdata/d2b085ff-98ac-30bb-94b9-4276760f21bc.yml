@@ -1,23 +1,23 @@
 lastAccountName: VEX_Jiarg
 timestamps:
-  login: 1591483998720
-  logout: 1591484074587
-  lastteleport: 1590782199999
+  login: 1591482255250
+  logout: 1591482248795
+  lastteleport: 1591481852567
 ipAddress: 127.0.0.1
 lastlocation:
-  world: world_nether
-  x: 2.5280280876121344
-  y: 231.0
-  z: -2.0295282216853394
-  yaw: -3.0812378
-  pitch: 9.29939
+  world: world
+  x: 309.58873786475846
+  y: 106.98237262986571
+  z: -402.78335450645926
+  yaw: 83.717125
+  pitch: 42.299847
 logoutlocation:
   world: world
-  x: 538.9299574718791
-  y: 63.0
-  z: -307.4108412748248
-  yaw: -185.30223
-  pitch: 24.598772
+  x: -202.5919871103674
+  y: 75.5832115521213
+  z: -163.85316750953157
+  yaw: -279.6211
+  pitch: 21.749714
 homes:
   home:
     world: world
@@ -41,4 +41,4 @@ homes:
     yaw: -359.65945
     pitch: 4.649668
 money: '500.0'
-afk: false
+afk: true

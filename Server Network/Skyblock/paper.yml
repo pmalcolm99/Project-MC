@@ -10,9 +10,12 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
+  chunk-tasks-per-tick: 1000
+  console-has-all-permissions: false
   enable-player-collisions: true
   save-empty-scoreboard-teams: false
   bungee-online-mode: true
@@ -37,7 +40,7 @@ settings:
     tab-spam-limit: 500
   async-chunks:
     enable: true
-    load-threads: -1
+    threads: -1
 timings:
   enabled: true
   verbose: true
@@ -45,6 +48,7 @@ timings:
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
+  - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -58,6 +62,9 @@ messages:
     flying-vehicle: Flying is not enabled on this server
 world-settings:
   default:
+    light-queue-size: 20
+    phantoms-do-not-spawn-on-creative-players: true
+    phantoms-only-attack-insomniacs: true
     iron-golems-can-spawn-in-air: false
     zombie-villager-infection-chance: -1.0
     keep-spawn-loaded: true
@@ -144,6 +151,14 @@ world-settings:
       scan-for-legacy-ender-dragon: true
       disable-pillager-patrols: false
       disable-unloaded-chunk-enderpearl-exploit: true
+      pillager-patrols:
+        spawn-chance: 0.2
+        spawn-delay:
+          per-player: false
+          ticks: 12000
+        start:
+          per-player: false
+          day: 5
     squid-spawn-height:
       maximum: 0.0
     max-growth-height:
@@ -178,3 +193,5 @@ world-settings:
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 600
+    viewdistances:
+      no-tick-view-distance: -1

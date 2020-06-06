@@ -63,8 +63,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_tundra": "2020-06-06 16:42:43 -0600",
       "minecraft:birch_forest": "2020-04-07 22:17:20 -0600",
+      "minecraft:snowy_beach": "2020-06-06 16:42:17 -0600",
       "minecraft:river": "2020-04-07 22:15:18 -0600",
+      "minecraft:snowy_taiga": "2020-06-06 16:42:29 -0600",
       "minecraft:birch_forest_hills": "2020-04-07 22:22:32 -0600",
       "minecraft:swamp": "2020-04-07 22:16:31 -0600",
       "minecraft:plains": "2020-03-28 17:08:49 -0600"

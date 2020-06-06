@@ -60,6 +60,8 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    end-portal-sound-radius: 0
+    seed-endcity: 10387313
     verbose: true
     view-distance: default
     item-despawn-rate: 6000
@@ -89,12 +91,30 @@ world-settings:
       item: 2.5
       exp: 3.0
     entity-activation-range:
+      villagers: 32
+      flying-monsters: 32
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
+      villagers-active-for-panic: true
       animals: 32
       monsters: 32
       raiders: 48
       misc: 16
       water: 16
       tick-inactive-villagers: true
+      wake-up-inactive:
+        animals-max-per-tick: 4
+        animals-every: 1200
+        animals-for: 100
+        monsters-max-per-tick: 8
+        monsters-every: 400
+        monsters-for: 100
+        villagers-max-per-tick: 4
+        villagers-every: 600
+        villagers-for: 100
+        flying-monsters-max-per-tick: 8
+        flying-monsters-every: 200
+        flying-monsters-for: 100
     growth:
       cactus-modifier: 100
       cane-modifier: 100

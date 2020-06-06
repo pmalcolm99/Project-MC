@@ -1,779 +1,1023 @@
-[16:52:42] [Server thread/INFO]: Loading properties
-[16:52:43] [Server thread/INFO]: This server is running Paper version git-Paper-143 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[16:52:43] [Server thread/INFO]: Debug logging is disabled
-[16:52:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:52:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:52:43] [Server thread/INFO]: Default game type: SURVIVAL
-[16:52:43] [Server thread/INFO]: Generating keypair
-[16:52:43] [Server thread/INFO]: Starting Minecraft server on *:25567
-[16:52:43] [Server thread/INFO]: Using default channel type
-[16:52:45] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:52:52] [Server thread/WARN]: Legacy plugin MysqlEcoBridge v3.4.1 does not specify an api-version.
-[16:52:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
-[16:52:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
-[16:52:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@63aa4f25]
-[16:52:56] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v1.12.3
-[16:52:56] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[16:52:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
-[16:52:56] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[16:52:56] [Server thread/INFO]: [IPortal] Loading IPortal v1.13
-[16:52:56] [Server thread/INFO]: [MysqlEcoBridge] Loading MysqlEcoBridge v3.4.1
-[16:52:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
-[16:52:56] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
-[16:52:56] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
-[16:52:56] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.1.0-b763
-[16:52:56] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
-[16:52:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:52:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
-[16:52:56] [Server thread/INFO]:         __    
-[16:52:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
-[16:52:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:52:56] [Server thread/INFO]: 
-[16:52:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:52:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:52:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:52:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:52:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2399ms)
-[16:52:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
-[16:52:58] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[16:52:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:52:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
-[16:53:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[16:53:01] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
-[16:53:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:53:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:53:01] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[16:53:01] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[16:53:01] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:53:01] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:53:01] [Server thread/INFO]: [MysqlEcoBridge] Enabling MysqlEcoBridge v3.4.1*
-[16:53:01] [Server thread/INFO]: [MysqlEcoBridge] Using economy system: Essentials Economy
-[16:53:01] [Server thread/INFO]: [MysqlEcoBridge] Loading the config file...
-[16:53:01] [Server thread/INFO]: [MysqlEcoBridge] Connecting to the database...
-[16:53:02] [Server thread/INFO]: [MysqlEcoBridge] Database connection successful!
-[16:53:02] [Server thread/INFO]: [MysqlEcoBridge] Data save task is enabled.
-[16:53:02] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge loaded successfully!
-[16:53:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:53:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:53:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:53:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:53:02] [Server thread/INFO]: Preparing level "world"
-[16:53:02] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:53:03] [Server thread/INFO]: Loaded 6 recipes
-[16:53:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:53:04] [Server thread/INFO]: View Distance: 10
-[16:53:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:53:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:53:04] [Server thread/INFO]: Experience Merge Radius: 1.0
-[16:53:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:53:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:53:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:53:04] [Server thread/INFO]: Item Merge Radius: 1.5
-[16:53:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:53:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:53:04] [Server thread/INFO]: Max TNT Explosions: 100
-[16:53:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:53:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:53:04] [Server thread/INFO]: Mob Spawn Range: 8
-[16:53:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:53:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:53:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:53:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:53:05] [Server thread/INFO]: View Distance: 10
-[16:53:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:53:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:53:05] [Server thread/INFO]: Experience Merge Radius: 1.0
-[16:53:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:53:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:53:05] [Server thread/INFO]: Item Merge Radius: 1.5
-[16:53:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:53:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:53:05] [Server thread/INFO]: Max TNT Explosions: 100
-[16:53:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:53:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:53:05] [Server thread/INFO]: Mob Spawn Range: 8
-[16:53:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:53:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:53:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:53:05] [Server thread/INFO]: View Distance: 10
-[16:53:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:53:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:53:05] [Server thread/INFO]: Experience Merge Radius: 1.0
-[16:53:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:53:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:53:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:53:05] [Server thread/INFO]: Item Merge Radius: 1.5
-[16:53:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:53:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:53:05] [Server thread/INFO]: Max TNT Explosions: 100
-[16:53:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:53:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:53:05] [Server thread/INFO]: Mob Spawn Range: 8
-[16:53:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:53:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:53:05] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[16:53:05] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:05] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:06] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:06] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:07] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:07] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[16:53:07] [Server thread/INFO]: Time elapsed: 2296 ms
-[16:53:07] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[16:53:07] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:08] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:08] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:08] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[16:53:08] [Server thread/INFO]: Time elapsed: 1114 ms
-[16:53:08] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[16:53:08] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:09] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:09] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[16:53:09] [Server thread/INFO]: Time elapsed: 850 ms
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v1.12.3
-[16:53:09] [Server thread/INFO]: =========================================
-[16:53:09] [Server thread/INFO]: Loading Auction House 1.11 - Multiversion
-[16:53:09] [Server thread/INFO]:  
-[16:53:09] [Server thread/INFO]: This plugin was designed by Kiran Hart any
-[16:53:09] [Server thread/INFO]: problems should be reported directly to him.
-[16:53:09] [Server thread/INFO]: =========================================
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Initializing instance
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Checking server version
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Initializing language system
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Loaded locale "en_US.lang"
-[16:53:09] [Server thread/WARN]: [AuctionHouse] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Loading data files
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Loading Settings
-[16:53:09] [Server thread/INFO]: [AuctionHouse] Setting up command system
-[16:53:09] [Server thread/INFO]: =========================================
-[16:53:09] [Server thread/INFO]: Loaded Auction House 1.12.3 - Multiversion
-[16:53:09] [Server thread/INFO]:  
-[16:53:09] [Server thread/INFO]: Loaded successfully in 81ms
-[16:53:09] [Server thread/INFO]: =========================================
-[16:53:09] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
-[16:53:09] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[16:53:09] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
-[16:53:09] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
-[16:53:09] [Server thread/INFO]: -------- World Settings For [SurvivalStructures] --------
-[16:53:09] [Server thread/INFO]: View Distance: 10
-[16:53:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:53:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:53:09] [Server thread/INFO]: Experience Merge Radius: 1.0
-[16:53:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:53:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:53:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:53:09] [Server thread/INFO]: Item Merge Radius: 1.5
-[16:53:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:53:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:53:09] [Server thread/INFO]: Max TNT Explosions: 100
-[16:53:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:53:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:53:09] [Server thread/INFO]: Mob Spawn Range: 8
-[16:53:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:53:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:53:09] [Server thread/INFO]: Preparing start region for dimension 'SurvivalStructures'/minecraft:overworld
-[16:53:09] [Server thread/INFO]: Preparing spawn area: 0%
-[16:53:10] [Server-Worker-6/INFO]: Preparing spawn area: 83%
-[16:53:10] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:11] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:11] [Server thread/INFO]: Preparing spawn area: 100%
-[16:53:12] [Server thread/INFO]: Loaded 441 spawn chunks for world SurvivalStructures
-[16:53:12] [Server thread/INFO]: Time elapsed: 2473 ms
-[16:53:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[16:53:12] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[16:53:12] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[16:53:12] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[16:53:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[16:53:13] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) TNT ignition is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Lighters are PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Lava fire is PERMITTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Fire spread is UNRESTRICTED.
-[16:53:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SurvivalStructures'
-[16:53:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:53:14] [Server thread/INFO]: [IPortal] Enabling IPortal v1.13
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-258}
-[16:53:14] [Server thread/INFO]: [iPortal] lobby2 portal successfully Loaded!
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-258}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-246}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-247}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-248}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-249}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-250}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-251}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-252}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-253}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-254}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-255}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-256}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-257}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-258}
-[16:53:14] [Server thread/INFO]: [iPortal] lobby3 portal successfully Loaded!
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=101, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=101, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=101, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=101, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=100, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=100, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=100, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=100, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=99, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=99, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=99, z=-237}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=99, z=-237}
-[16:53:14] [Server thread/INFO]: [iPortal] random1 portal successfully Loaded!
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=101, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=101, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=101, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=101, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=100, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=100, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=100, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=100, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=99, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=99, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=99, z=-267}
-[16:53:14] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=99, z=-267}
-[16:53:14] [Server thread/INFO]: [iPortal] random2 portal successfully Loaded!
-[16:53:14] [Server thread/INFO]: [iPortal] portals.yml file successfully Loaded!
-[16:53:14] [Server thread/INFO]: [iPortal] IPortal has been enabled!
-[16:53:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
-[16:53:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:53:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:53:14] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[16:53:14] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[16:53:14] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[16:53:15] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
-[16:53:15] [Server thread/INFO]: [Essentials] Using locale en_US
-[16:53:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:53:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:53:15] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[16:53:15] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:53:15] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
-[16:53:15] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[16:53:15] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
-[16:53:15] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.1.0-b763
-[16:53:15] [Server thread/INFO]: [Multiverse-NetherPortals 4.1.0-b763]  Enabled - By Rigby and fernferret
-[16:53:15] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
-[16:53:16] [Server thread/INFO]: Done (14.201s)! For help, type "help"
-[16:53:16] [Server thread/INFO]: Timings Reset
-[16:53:16] [Server thread/INFO]: ============================
-[16:53:16] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
-[16:53:16] [Server thread/INFO]: ============================
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]: ---------------------------
-[16:53:16] [Server thread/INFO]: Finished clearing data.yml
-[16:53:16] [Server thread/INFO]: ---------------------------
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]: -------------------------------
-[16:53:16] [Server thread/INFO]: Finished saving active auctions
-[16:53:16] [Server thread/INFO]: -------------------------------
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]:  
-[16:53:16] [Server thread/INFO]: Auction Saving took: 6ms
-[16:53:16] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
-[16:53:16] [User Authenticator #1/INFO]: UUID of player VEX_Jiarg is d2b085ff-98ac-30bb-94b9-4276760f21bc
-[16:53:17] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
-[16:53:18] [Server thread/INFO]: VEX_Jiarg[/127.0.0.1:61199] logged in with entity id 496 at ([world]548.9256713304453, 79.0, -363.323900560746)
-[16:53:18] [Server thread/INFO]: VEX_Jiarg joined AllegiantMC Survival!
-[16:53:28] [User Authenticator #1/INFO]: UUID of player SovietPhenix is 2943bbcd-92cf-3f64-ae2a-98d36ef37551
-[16:53:30] [Server thread/INFO]: SovietPhenix[/127.0.0.1:61204] logged in with entity id 840 at ([world]418.0379397199011, 66.0, -300.3237082600091)
-[16:53:30] [Server thread/INFO]: SovietPhenix joined AllegiantMC Survival!
-[16:54:34] [Server thread/INFO]: VEX_Jiarg lost connection: Disconnected
-[16:54:34] [Server thread/INFO]: VEX_Jiarg left.
-[16:55:06] [Server thread/INFO]: SovietPhenix lost connection: Disconnected
-[16:55:06] [Server thread/INFO]: SovietPhenix left.
-[16:56:00] [Server thread/INFO]: Stopping the server
-[16:56:00] [Server thread/INFO]: Stopping server
-[16:56:00] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
-[16:56:00] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.1.0-b763
-[16:56:00] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[16:56:00] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
-[16:56:00] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.2.0
-[16:56:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
-[16:56:00] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[16:56:00] [Server thread/INFO]: [MysqlEcoBridge] Disabling MysqlEcoBridge v3.4.1
-[16:56:00] [Server thread/INFO]: [MysqlEcoBridge] Saving online players data...
-[16:56:00] [Server thread/INFO]: [MysqlEcoBridge] Data save complete for 0 players.
-[16:56:00] [Server thread/INFO]: [MysqlEcoBridge] Closing database connection...
-[16:56:00] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge is disabled!
-[16:56:00] [Server thread/INFO]: [IPortal] Disabling IPortal v1.13
-[16:56:00] [Server thread/INFO]: [iPortal] IPortal has been disabled!
-[16:56:00] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[16:56:00] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[16:56:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
-[16:56:00] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[16:56:00] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:56:00] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v1.12.3
-[16:56:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
-[16:56:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:56:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
-[16:56:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:56:00] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:56:01] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:56:01] [Server thread/INFO]: Saving players
-[16:56:01] [Server thread/INFO]: Saving worlds
-[16:56:01] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[16:56:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:56:03] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[16:56:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:56:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:56:05] [Server thread/INFO]: Saving chunks for level 'SurvivalStructures'/minecraft:survivalstructures
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (SurvivalStructures): All chunks are saved
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:56:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (SurvivalStructures): All chunks are saved
+[11:00:55] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[11:00:55] [Server thread/INFO]: Loading properties
+[11:00:56] [Server thread/INFO]: This server is running Paper version git-Paper-334 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[11:00:56] [Server thread/INFO]: Debug logging is disabled
+[11:00:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:00:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:00:56] [Server thread/INFO]: Default game type: SURVIVAL
+[11:00:56] [Server thread/INFO]: Generating keypair
+[11:00:57] [Server thread/INFO]: Starting Minecraft server on *:25567
+[11:00:57] [Server thread/INFO]: Using default channel type
+[11:00:58] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:01:06] [Server thread/WARN]: Legacy plugin MysqlEcoBridge v3.4.1 does not specify an api-version.
+[11:01:06] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[11:01:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[11:01:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3144fd4c]
+[11:01:09] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v1.12.3
+[11:01:09] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[11:01:09] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[11:01:09] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:01:09] [Server thread/INFO]: [IPortal] Loading IPortal v1.13
+[11:01:09] [Server thread/INFO]: [MysqlEcoBridge] Loading MysqlEcoBridge v3.4.1
+[11:01:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[11:01:09] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
+[11:01:09] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[11:01:09] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.1.0-b763
+[11:01:09] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[11:01:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:01:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[11:01:09] [Server thread/INFO]:         __    
+[11:01:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[11:01:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:01:09] [Server thread/INFO]: 
+[11:01:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:01:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:01:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:01:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:01:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2572ms)
+[11:01:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[11:01:11] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:01:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:01:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[11:01:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[11:01:13] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[11:01:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:01:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:01:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[11:01:13] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:01:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:01:13] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:01:13] [Server thread/INFO]: [MysqlEcoBridge] Enabling MysqlEcoBridge v3.4.1*
+[11:01:13] [Server thread/INFO]: [MysqlEcoBridge] Using economy system: Essentials Economy
+[11:01:13] [Server thread/INFO]: [MysqlEcoBridge] Loading the config file...
+[11:01:13] [Server thread/INFO]: [MysqlEcoBridge] Connecting to the database...
+[11:01:14] [Server thread/INFO]: [MysqlEcoBridge] Database connection successful!
+[11:01:14] [Server thread/INFO]: [MysqlEcoBridge] Data save task is enabled.
+[11:01:14] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge loaded successfully!
+[11:01:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:01:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:01:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:01:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:01:14] [Server thread/INFO]: Preparing level "world"
+[11:01:14] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:01:15] [Server thread/INFO]: Loaded 6 recipes
+[11:01:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:01:16] [Server thread/INFO]: Item Merge Radius: 1.5
+[11:01:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:01:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:01:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:01:16] [Server thread/INFO]: View Distance: 10
+[11:01:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:01:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:01:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:01:16] [Server thread/INFO]: Experience Merge Radius: 1.0
+[11:01:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:01:16] [Server thread/INFO]: Mob Spawn Range: 8
+[11:01:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:01:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:01:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:01:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:01:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:01:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:01:16] [Server thread/INFO]: Item Merge Radius: 1.5
+[11:01:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:01:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:01:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:01:16] [Server thread/INFO]: View Distance: 10
+[11:01:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:01:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:01:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:01:16] [Server thread/INFO]: Experience Merge Radius: 1.0
+[11:01:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:01:16] [Server thread/INFO]: Mob Spawn Range: 8
+[11:01:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:01:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:01:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:01:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:01:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:01:16] [Server thread/INFO]: Item Merge Radius: 1.5
+[11:01:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:01:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:01:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:01:16] [Server thread/INFO]: View Distance: 10
+[11:01:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:01:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:01:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:01:16] [Server thread/INFO]: Experience Merge Radius: 1.0
+[11:01:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:01:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:01:16] [Server thread/INFO]: Mob Spawn Range: 8
+[11:01:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:01:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:01:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:01:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:01:16] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[11:01:16] [Paper RegionFile IO Thread/INFO]: [RegionFile] Using Java 8 DirectByteBuffer cleanup method
+[11:01:17] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[11:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:18] [Server thread/INFO]: Time elapsed: 1177 ms
+[11:01:18] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[11:01:18] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[11:01:18] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:18] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:19] [Server thread/INFO]: Preparing spawn area: 14%
+[11:01:19] [Server thread/INFO]: Time elapsed: 1094 ms
+[11:01:19] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[11:01:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[11:01:19] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:19] [Server thread/INFO]: Time elapsed: 446 ms
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v1.12.3
+[11:01:19] [Server thread/INFO]: =========================================
+[11:01:19] [Server thread/INFO]: Loading Auction House 1.11 - Multiversion
+[11:01:19] [Server thread/INFO]:  
+[11:01:19] [Server thread/INFO]: This plugin was designed by Kiran Hart any
+[11:01:19] [Server thread/INFO]: problems should be reported directly to him.
+[11:01:19] [Server thread/INFO]: =========================================
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Initializing instance
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Checking server version
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Initializing language system
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Loaded locale "en_US.lang"
+[11:01:19] [Server thread/WARN]: [AuctionHouse] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Loading data files
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Loading Settings
+[11:01:19] [Server thread/INFO]: [AuctionHouse] Setting up command system
+[11:01:19] [Server thread/INFO]: =========================================
+[11:01:19] [Server thread/INFO]: Loaded Auction House 1.12.3 - Multiversion
+[11:01:19] [Server thread/INFO]:  
+[11:01:19] [Server thread/INFO]: Loaded successfully in 65ms
+[11:01:19] [Server thread/INFO]: =========================================
+[11:01:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[11:01:19] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:01:19] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[11:01:19] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[11:01:19] [Server thread/INFO]: -------- World Settings For [SurvivalStructures] --------
+[11:01:19] [Server thread/INFO]: Item Merge Radius: 1.5
+[11:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:01:19] [Server thread/INFO]: View Distance: 10
+[11:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:01:19] [Server thread/INFO]: Experience Merge Radius: 1.0
+[11:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:01:19] [Server thread/INFO]: Mob Spawn Range: 8
+[11:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:01:19] [Server thread/INFO]: Max TNT Explosions: 100
+[11:01:20] [Server thread/INFO]: Preparing start region for dimension 'SurvivalStructures'/minecraft:overworld
+[11:01:20] [Server thread/INFO]: Loaded 0 spawn chunks for world SurvivalStructures
+[11:01:20] [Server thread/INFO]: Preparing spawn area: 0%
+[11:01:20] [Server thread/INFO]: Time elapsed: 325 ms
+[11:01:20] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[11:01:22] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[11:01:22] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[11:01:22] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[11:01:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:01:22] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) TNT ignition is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Lighters are PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Lava fire is PERMITTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] (SurvivalStructures) Fire spread is UNRESTRICTED.
+[11:01:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SurvivalStructures'
+[11:01:22] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:01:23] [Server thread/INFO]: [IPortal] Enabling IPortal v1.13
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=113, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=112, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=111, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=110, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=109, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=108, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=107, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=106, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=105, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=104, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=103, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=102, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=101, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=100, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-173, y=99, z=-258}
+[11:01:23] [Server thread/INFO]: [iPortal] lobby2 portal successfully Loaded!
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=113, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=112, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=111, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=110, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=109, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=108, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=107, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=106, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=105, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=104, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=103, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=102, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=101, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-258}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=100, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-246}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-247}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-248}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-249}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-250}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-251}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-252}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-253}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-254}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-255}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-256}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-257}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-212, y=99, z=-258}
+[11:01:23] [Server thread/INFO]: [iPortal] lobby3 portal successfully Loaded!
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=101, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=101, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=101, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=101, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=100, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=100, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=100, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=100, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=99, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=99, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=99, z=-237}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=99, z=-237}
+[11:01:23] [Server thread/INFO]: [iPortal] random1 portal successfully Loaded!
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=101, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=101, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=101, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=101, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=100, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=100, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=100, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=100, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-191, y=99, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-192, y=99, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-193, y=99, z=-267}
+[11:01:23] [Server thread/ERROR]: POI data mismatch: never registered at BlockPosition{x=-194, y=99, z=-267}
+[11:01:23] [Server thread/INFO]: [iPortal] random2 portal successfully Loaded!
+[11:01:23] [Server thread/INFO]: [iPortal] portals.yml file successfully Loaded!
+[11:01:23] [Server thread/INFO]: [iPortal] IPortal has been enabled!
+[11:01:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[11:01:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:01:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:01:23] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:01:23] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[11:01:23] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:01:23] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[11:01:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:01:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:01:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:01:24] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[11:01:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:01:24] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
+[11:01:24] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[11:01:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[11:01:24] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.1.0-b763
+[11:01:24] [Server thread/INFO]: [Multiverse-NetherPortals 4.1.0-b763]  Enabled - By Rigby and fernferret
+[11:01:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[11:01:24] [Server thread/INFO]: Running delayed init tasks
+[11:01:24] [Server thread/INFO]: ============================
+[11:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[11:01:24] [Server thread/INFO]: ============================
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]: ---------------------------
+[11:01:24] [Server thread/INFO]: Finished clearing data.yml
+[11:01:24] [Server thread/INFO]: ---------------------------
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]: -------------------------------
+[11:01:24] [Server thread/INFO]: Finished saving active auctions
+[11:01:24] [Server thread/INFO]: -------------------------------
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]:  
+[11:01:24] [Server thread/INFO]: Auction Saving took: 11ms
+[11:01:24] [Server thread/INFO]: Done (28.624s)! For help, type "help"
+[11:01:24] [Server thread/INFO]: Timings Reset
+[11:01:24] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[11:01:25] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
+[11:07:33] [User Authenticator #1/INFO]: UUID of player dudesentee is aab764fe-6dd0-3705-a28a-86ae47e1c0b6
+[11:07:34] [Server thread/INFO]: dudesentee[/127.0.0.1:60422] logged in with entity id 455 at ([SurvivalStructures]-173.6615866932147, 9.49342312596659, -191.48463006809615)
+[11:07:35] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 26.182912ms. Summary: Getting prefix for dudesentee
+[11:07:35] [Server thread/INFO]: dudesentee joined AllegiantMC Survival!
+[11:07:35] [Server thread/WARN]: java.lang.Exception: Error occurred detecting class name
+[11:07:35] [Server thread/WARN]: 	at co.aikar.timings.MinecraftTimings.lambda$getPluginTaskTimings$0(MinecraftTimings.java:81)
+[11:07:35] [Server thread/WARN]: 	at java.util.concurrent.ConcurrentMap.computeIfAbsent(Unknown Source)
+[11:07:35] [Server thread/WARN]: 	at co.aikar.timings.MinecraftTimings.getPluginTaskTimings(MinecraftTimings.java:71)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.<init>(CraftTask.java:62)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:214)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:196)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.scheduleSyncRepeatingTask(CraftScheduler.java:191)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.scheduleSyncDelayedTask(CraftScheduler.java:155)
+[11:07:35] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.scheduleSyncDelayedTask(Essentials.java:818)
+[11:07:35] [Server thread/WARN]: 	at com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask.run(EssentialsPlayerListener.java:292)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[11:07:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461)
+[11:07:35] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1256)
+[11:07:35] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430)
+[11:07:35] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1173)
+[11:07:35] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:962)
+[11:07:35] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[11:07:35] [Server thread/WARN]: Caused by: java.lang.NullPointerException
+[11:07:35] [Server thread/WARN]: 	at co.aikar.timings.MinecraftTimings.lambda$getPluginTaskTimings$0(MinecraftTimings.java:76)
+[11:07:35] [Server thread/WARN]: 	... 16 more
+[11:07:35] [Craft Scheduler Thread - 42/INFO]: [MysqlEcoBridge] Saving online players data...
+[11:07:35] [Craft Scheduler Thread - 42/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[11:07:41] [Server thread/INFO]: dudesentee lost connection: Disconnected
+[11:07:41] [Server thread/INFO]: dudesentee left.
+[11:31:24] [Server thread/INFO]: ============================
+[11:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[11:31:24] [Server thread/INFO]: ============================
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]: ---------------------------
+[11:31:24] [Server thread/INFO]: Finished clearing data.yml
+[11:31:24] [Server thread/INFO]: ---------------------------
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]: -------------------------------
+[11:31:24] [Server thread/INFO]: Finished saving active auctions
+[11:31:24] [Server thread/INFO]: -------------------------------
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]:  
+[11:31:24] [Server thread/INFO]: Auction Saving took: 3ms
+[12:01:24] [Server thread/INFO]: ============================
+[12:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[12:01:24] [Server thread/INFO]: ============================
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]: ---------------------------
+[12:01:24] [Server thread/INFO]: Finished clearing data.yml
+[12:01:24] [Server thread/INFO]: ---------------------------
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]: -------------------------------
+[12:01:24] [Server thread/INFO]: Finished saving active auctions
+[12:01:24] [Server thread/INFO]: -------------------------------
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]:  
+[12:01:24] [Server thread/INFO]: Auction Saving took: 3ms
+[12:31:24] [Server thread/INFO]: ============================
+[12:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[12:31:24] [Server thread/INFO]: ============================
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]: ---------------------------
+[12:31:24] [Server thread/INFO]: Finished clearing data.yml
+[12:31:24] [Server thread/INFO]: ---------------------------
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]: -------------------------------
+[12:31:24] [Server thread/INFO]: Finished saving active auctions
+[12:31:24] [Server thread/INFO]: -------------------------------
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]:  
+[12:31:24] [Server thread/INFO]: Auction Saving took: 3ms
+[13:01:24] [Server thread/INFO]: ============================
+[13:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[13:01:24] [Server thread/INFO]: ============================
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]: ---------------------------
+[13:01:24] [Server thread/INFO]: Finished clearing data.yml
+[13:01:24] [Server thread/INFO]: ---------------------------
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]: -------------------------------
+[13:01:24] [Server thread/INFO]: Finished saving active auctions
+[13:01:24] [Server thread/INFO]: -------------------------------
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]:  
+[13:01:24] [Server thread/INFO]: Auction Saving took: 3ms
+[13:31:24] [Server thread/INFO]: ============================
+[13:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[13:31:24] [Server thread/INFO]: ============================
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]: ---------------------------
+[13:31:24] [Server thread/INFO]: Finished clearing data.yml
+[13:31:24] [Server thread/INFO]: ---------------------------
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]: -------------------------------
+[13:31:24] [Server thread/INFO]: Finished saving active auctions
+[13:31:24] [Server thread/INFO]: -------------------------------
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]:  
+[13:31:24] [Server thread/INFO]: Auction Saving took: 3ms
+[14:01:24] [Server thread/INFO]: ============================
+[14:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[14:01:24] [Server thread/INFO]: ============================
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]: ---------------------------
+[14:01:24] [Server thread/INFO]: Finished clearing data.yml
+[14:01:24] [Server thread/INFO]: ---------------------------
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]: -------------------------------
+[14:01:24] [Server thread/INFO]: Finished saving active auctions
+[14:01:24] [Server thread/INFO]: -------------------------------
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]:  
+[14:01:24] [Server thread/INFO]: Auction Saving took: 2ms
+[14:31:24] [Server thread/INFO]: ============================
+[14:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[14:31:24] [Server thread/INFO]: ============================
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]: ---------------------------
+[14:31:24] [Server thread/INFO]: Finished clearing data.yml
+[14:31:24] [Server thread/INFO]: ---------------------------
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]: -------------------------------
+[14:31:24] [Server thread/INFO]: Finished saving active auctions
+[14:31:24] [Server thread/INFO]: -------------------------------
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]:  
+[14:31:24] [Server thread/INFO]: Auction Saving took: 3ms
+[15:01:24] [Server thread/INFO]: ============================
+[15:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[15:01:24] [Server thread/INFO]: ============================
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]: ---------------------------
+[15:01:24] [Server thread/INFO]: Finished clearing data.yml
+[15:01:24] [Server thread/INFO]: ---------------------------
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]: -------------------------------
+[15:01:24] [Server thread/INFO]: Finished saving active auctions
+[15:01:24] [Server thread/INFO]: -------------------------------
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]:  
+[15:01:24] [Server thread/INFO]: Auction Saving took: 3ms
+[15:31:24] [Server thread/INFO]: ============================
+[15:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[15:31:24] [Server thread/INFO]: ============================
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]: ---------------------------
+[15:31:24] [Server thread/INFO]: Finished clearing data.yml
+[15:31:24] [Server thread/INFO]: ---------------------------
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]: -------------------------------
+[15:31:24] [Server thread/INFO]: Finished saving active auctions
+[15:31:24] [Server thread/INFO]: -------------------------------
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]:  
+[15:31:24] [Server thread/INFO]: Auction Saving took: 2ms
+[16:01:24] [Server thread/INFO]: ============================
+[16:01:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[16:01:24] [Server thread/INFO]: ============================
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]: ---------------------------
+[16:01:24] [Server thread/INFO]: Finished clearing data.yml
+[16:01:24] [Server thread/INFO]: ---------------------------
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]: -------------------------------
+[16:01:24] [Server thread/INFO]: Finished saving active auctions
+[16:01:24] [Server thread/INFO]: -------------------------------
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]:  
+[16:01:24] [Server thread/INFO]: Auction Saving took: 2ms
+[16:14:42] [User Authenticator #2/INFO]: UUID of player VEX_Jiarg is d2b085ff-98ac-30bb-94b9-4276760f21bc
+[16:14:42] [Server thread/INFO]: VEX_Jiarg[/127.0.0.1:60946] logged in with entity id 711 at ([world_nether]0.7883016291630417, 243.0, 0.6614162085351517)
+[16:14:42] [Server thread/INFO]: VEX_Jiarg joined AllegiantMC Survival!
+[16:14:43] [Craft Scheduler Thread - 1890/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:14:43] [Craft Scheduler Thread - 1890/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:14:49] [Server thread/INFO]: VEX_Jiarg issued server command: /back
+[16:14:55] [Server thread/INFO]: VEX_Jiarg issued server command: /home home
+[16:15:39] [Server thread/INFO]: VEX_Jiarg issued server command: /gm c
+[16:17:15] [Server thread/INFO]: VEX_Jiarg issued server command: /gm c
+[16:17:32] [Server thread/INFO]: VEX_Jiarg issued server command: /warp spawnvillage
+[16:17:43] [Craft Scheduler Thread - 1907/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:17:43] [Craft Scheduler Thread - 1907/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:19:45] [Server thread/INFO]: VEX_Jiarg lost connection: Disconnected
+[16:19:45] [Server thread/INFO]: VEX_Jiarg left.
+[16:23:47] [User Authenticator #3/INFO]: UUID of player VEX_Jiarg is d2b085ff-98ac-30bb-94b9-4276760f21bc
+[16:23:48] [Server thread/INFO]: VEX_Jiarg[/127.0.0.1:60955] logged in with entity id 11988 at ([world]-202.5919871103674, 75.5832115521213, -163.85316750953157)
+[16:23:48] [Server thread/INFO]: VEX_Jiarg joined AllegiantMC Survival!
+[16:23:48] [Craft Scheduler Thread - 1944/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:23:48] [Craft Scheduler Thread - 1944/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:24:08] [Server thread/INFO]: VEX_Jiarg lost connection: Disconnected
+[16:24:08] [Server thread/INFO]: VEX_Jiarg left.
+[16:24:14] [User Authenticator #3/INFO]: UUID of player VEX_Jiarg is d2b085ff-98ac-30bb-94b9-4276760f21bc
+[16:24:15] [Server thread/INFO]: VEX_Jiarg[/127.0.0.1:60958] logged in with entity id 12344 at ([world]-202.5919871103674, 75.5832115521213, -163.85316750953157)
+[16:24:15] [Server thread/INFO]: VEX_Jiarg joined AllegiantMC Survival!
+[16:24:22] [Server thread/INFO]: VEX_Jiarg issued server command: /gm c
+[16:26:49] [Craft Scheduler Thread - 1961/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:26:49] [Craft Scheduler Thread - 1961/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:29:49] [Craft Scheduler Thread - 1979/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:29:49] [Craft Scheduler Thread - 1979/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:31:24] [Server thread/INFO]: ============================
+[16:31:24] [Server thread/INFO]: GETTING READY TO PERFORM SAVE
+[16:31:24] [Server thread/INFO]: ============================
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]: ---------------------------
+[16:31:24] [Server thread/INFO]: Finished clearing data.yml
+[16:31:24] [Server thread/INFO]: ---------------------------
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]: -------------------------------
+[16:31:24] [Server thread/INFO]: Finished saving active auctions
+[16:31:24] [Server thread/INFO]: -------------------------------
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]:  
+[16:31:24] [Server thread/INFO]: Auction Saving took: 2ms
+[16:32:49] [Craft Scheduler Thread - 1996/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:32:49] [Craft Scheduler Thread - 1996/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:35:49] [Craft Scheduler Thread - 2014/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:35:49] [Craft Scheduler Thread - 2014/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:38:49] [Craft Scheduler Thread - 2032/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:38:49] [Craft Scheduler Thread - 2032/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:41:49] [Craft Scheduler Thread - 2050/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:41:49] [Craft Scheduler Thread - 2050/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:44:49] [Craft Scheduler Thread - 2068/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:44:49] [Craft Scheduler Thread - 2068/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:47:49] [Craft Scheduler Thread - 2085/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:47:49] [Craft Scheduler Thread - 2085/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:48:23] [User Authenticator #4/INFO]: UUID of player SovietPhenix is 2943bbcd-92cf-3f64-ae2a-98d36ef37551
+[16:48:23] [Server thread/INFO]: SovietPhenix[/127.0.0.1:61085] logged in with entity id 41677 at ([world]373.13407884005045, 64.0, -332.08408152385874)
+[16:48:23] [Server thread/INFO]: SovietPhenix joined AllegiantMC Survival!
+[16:50:49] [Craft Scheduler Thread - 2103/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:50:49] [Craft Scheduler Thread - 2103/INFO]: [MysqlEcoBridge] Data save complete for 2 players.
+[16:51:15] [Server thread/INFO]: SovietPhenix lost connection: Disconnected
+[16:51:15] [Server thread/INFO]: SovietPhenix left.
+[16:51:48] [Server thread/INFO]: Stopping the server
+[16:51:48] [Server thread/INFO]: Stopping server
+[16:51:48] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
+[16:51:48] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.1.0-b763
+[16:51:48] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[16:51:48] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[16:51:48] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.2.0
+[16:51:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[16:51:48] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[16:51:48] [Server thread/INFO]: [MysqlEcoBridge] Disabling MysqlEcoBridge v3.4.1
+[16:51:48] [Server thread/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:51:48] [Server thread/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:51:48] [Server thread/INFO]: [MysqlEcoBridge] Closing database connection...
+[16:51:48] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge is disabled!
+[16:51:48] [Server thread/INFO]: [IPortal] Disabling IPortal v1.13
+[16:51:48] [Server thread/INFO]: [iPortal] IPortal has been disabled!
+[16:51:48] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[16:51:48] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:51:48] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[16:51:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[16:51:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:51:48] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v1.12.3
+[16:51:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[16:51:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:51:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[16:51:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:51:48] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:51:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:51:48] [Server thread/INFO]: Saving players
+[16:51:48] [Server thread/INFO]: VEX_Jiarg lost connection: Server closed
+[16:51:48] [Server thread/INFO]: VEX_Jiarg left the game
+[16:51:48] [Server thread/INFO]: Saving worlds
+[16:51:48] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[16:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:51:49] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[16:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:51:49] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[16:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:51:49] [Server thread/INFO]: Saving chunks for level 'SurvivalStructures'/minecraft:survivalstructures
+[16:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (SurvivalStructures): All chunks are saved
+[16:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (SurvivalStructures): All chunks are saved
+[16:51:50] [Server thread/INFO]: Flushing Chunk IO
+[16:51:50] [Server thread/INFO]: Closing Thread Pool
+[16:51:50] [Server thread/INFO]: Closing Server

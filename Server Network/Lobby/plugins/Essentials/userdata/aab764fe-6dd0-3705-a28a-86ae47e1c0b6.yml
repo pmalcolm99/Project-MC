@@ -1,7 +1,7 @@
 lastAccountName: dudesentee
 timestamps:
-  login: 1590349467044
-  logout: 1590349508427
+  login: 1591483875794
+  logout: 1591482910642
   lastteleport: 1584844407224
 ipAddress: 127.0.0.1
 lastlocation:
@@ -13,10 +13,10 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: world
-  x: 0.0
-  y: 100.0
-  z: 0.0
-  yaw: 0.0
-  pitch: 0.6000001
+  x: -13.373687481948863
+  y: 99.0
+  z: 1.1837691765124994
+  yaw: -85.049774
+  pitch: -0.15003765
 afk: false
 money: '222.0'

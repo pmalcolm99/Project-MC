@@ -1,24 +1,24 @@
 lastAccountName: SovietPhenix
 timestamps:
-  login: 1591484010143
-  logout: 1591484106081
-  lastteleport: 1590784530212
+  login: 1591483703598
+  logout: 1591483875083
+  lastteleport: 1591423107074
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
-  x: 522.2144843513848
+  x: 381.1276380334927
   y: 62.0
-  z: -306.690303120199
-  yaw: 159.29236
-  pitch: 33.000076
+  z: -326.7560869692658
+  yaw: 4.030182
+  pitch: 12.000125
 money: '0.0'
 logoutlocation:
   world: world
-  x: 391.5709257990218
-  y: 64.0
-  z: -302.86873964660634
-  yaw: -112.22891
-  pitch: 18.899752
+  x: 366.81656294446293
+  y: 71.0
+  z: -333.5076571613645
+  yaw: 203.38017
+  pitch: 21.900028
 homes:
   home:
     world: world

@@ -1,17 +1,17 @@
 lastAccountName: SovietPhenix
 timestamps:
-  login: 1586315436876
-  logout: 1586317430696
+  login: 1591483875873
+  logout: 1591483964527
   lastteleport: 1586315812855
 ipAddress: 127.0.0.1
 money: '0.0'
 logoutlocation:
   world: bskyblock_world
-  x: 9.279177302088742
+  x: 7.776760240991093
   y: 107.0
-  z: 14.962372525049432
-  yaw: -275.06152
-  pitch: 11.700078
+  z: 30.064021123582386
+  yaw: -221.96164
+  pitch: 27.450096
 lastlocation:
   world: bskyblock_world
   x: -0.5

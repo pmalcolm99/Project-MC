@@ -4718,3 +4718,439 @@ expected <block end>, but found '<block mapping start>'
 14:47:52 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected
 14:47:52 [INFO] [/73.169.77.125:63633] <-> InitialHandler has pinged
 13:27:18 [INFO] [/34.89.119.255:51810] <-> InitialHandler has pinged
+10:45:52 [INFO] Using standard Java JCE cipher.
+10:45:52 [INFO] Using standard Java compressor.
+10:45:52 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:697f087:1487
+10:45:52 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:45:52 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:52 [INFO] Loaded plugin LuckPerms version 5.0.130 by Luck
+10:45:52 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:52 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:52 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:52 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:52 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] §b       §3 __    
+10:45:53 [INFO] §b  |    §3|__)   §2LuckPerms §bv5.0.130
+10:45:53 [INFO] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+10:45:53 [INFO] 
+10:45:53 [INFO] [LuckPerms] Loading configuration...
+10:45:53 [WARNING] Exception encountered when loading plugin: LuckPerms
+while parsing a block mapping
+ in 'reader', line 115, column 5:
+        maximum-pool-size: 10
+        ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 140, column 8:
+           useSSL: false
+           ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:572)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:217)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:239)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:239)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:525)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:519)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:111)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:79)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:71)
+	at me.lucko.luckperms.bungee.BungeeConfigAdapter.reload(BungeeConfigAdapter.java:57)
+	at me.lucko.luckperms.bungee.BungeeConfigAdapter.<init>(BungeeConfigAdapter.java:51)
+	at me.lucko.luckperms.bungee.LPBungeePlugin.provideConfigurationAdapter(LPBungeePlugin.java:103)
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:114)
+	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:125)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+10:45:53 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:45:53 [INFO] Listening on /0.0.0.0:25565
+10:54:11 [INFO] [/192.168.1.44:50432] <-> InitialHandler has pinged
+10:54:14 [INFO] [/192.168.1.44:50436] <-> InitialHandler has connected
+10:54:16 [INFO] [dudesentee] <-> ServerConnector [survival] has connected
+10:54:17 [INFO] Netty is not using direct IO buffers.
+10:57:53 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+10:57:53 [INFO] [dudesentee] <-> DownstreamBridge <-> [survival] has disconnected
+10:58:06 [INFO] [dudesentee] <-> ServerConnector [hg] has connected
+10:58:07 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+10:59:08 [INFO] [dudesentee] -> UpstreamBridge has disconnected
+10:59:08 [INFO] [dudesentee] <-> DownstreamBridge <-> [hg] has disconnected
+10:59:09 [INFO] [/192.168.1.44:50466] <-> InitialHandler has pinged
+10:40:08 [INFO] [/122.228.19.79:2169] <-> InitialHandler has pinged
+12:44:50 [INFO] [/178.62.229.104:36496] <-> InitialHandler has pinged
+19:31:59 [INFO] [/71.196.130.221:52568] <-> InitialHandler has connected
+19:32:00 [INFO] [/71.196.130.221:52569] <-> InitialHandler has pinged
+19:32:00 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+19:32:13 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+19:32:14 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+22:09:30 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+22:09:30 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+22:09:31 [INFO] [/71.196.130.221:53187] <-> InitialHandler has pinged
+07:17:33 [INFO] [/34.89.119.255:48580] <-> InitialHandler has pinged
+17:44:14 [INFO] [/73.169.77.125:53214] <-> InitialHandler has pinged
+17:44:17 [INFO] [SovietPhenix,/73.169.77.125:53215] <-> InitialHandler has connected
+17:44:18 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+17:44:25 [INFO] [SovietPhenix] <-> ServerConnector [survival] has connected
+17:44:25 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [lobby] has disconnected
+17:44:56 [INFO] [VEX_Jiarg,/71.196.130.221:51436] <-> InitialHandler has connected
+17:44:56 [INFO] [/71.196.130.221:51435] <-> InitialHandler has pinged
+17:44:57 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+17:45:00 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+17:45:01 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+18:19:47 [WARNING] [VEX_Jiarg] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+18:19:47 [INFO] [VEX_Jiarg] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+18:19:47 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+18:19:47 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+18:41:50 [INFO] [SovietPhenix] -> UpstreamBridge has disconnected
+18:41:50 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected
+18:41:50 [INFO] [/73.169.77.125:53410] <-> InitialHandler has pinged
+18:48:13 [INFO] [VEX_Jiarg,/71.196.130.221:51780] <-> InitialHandler has connected
+18:48:13 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+18:48:18 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+18:48:18 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+20:14:02 [WARNING] [VEX_Jiarg] -> UpstreamBridge - IOException: An established connection was aborted by the software in your host machine
+20:14:02 [INFO] [VEX_Jiarg] disconnected with: §fIOException : An established connection was aborted by the software in your host machine @ sun.nio.ch.SocketDispatcher:-2
+20:14:02 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+20:14:02 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+13:47:37 [INFO] [/71.196.130.221:50092] <-> InitialHandler has pinged
+13:47:38 [INFO] [VEX_Jiarg,/71.196.130.221:50093] <-> InitialHandler has connected
+13:47:39 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+13:47:47 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+13:47:47 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+13:48:18 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+13:48:18 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+13:48:19 [INFO] [/71.196.130.221:50102] <-> InitialHandler has pinged
+14:39:10 [INFO] [/223.71.167.165:13788] <-> InitialHandler has pinged
+14:39:40 [WARNING] [/223.71.167.165:13788] <-> InitialHandler - read timed out
+14:58:49 [INFO] [/71.196.130.221:50793] <-> InitialHandler has pinged
+14:58:50 [INFO] [VEX_Jiarg,/71.196.130.221:50795] <-> InitialHandler has connected
+14:58:51 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+14:59:06 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+14:59:06 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+15:00:39 [INFO] [/73.169.77.125:56581] <-> InitialHandler has pinged
+15:00:39 [INFO] [SovietPhenix,/73.169.77.125:56582] <-> InitialHandler has connected
+15:00:41 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+15:00:53 [INFO] [SovietPhenix] <-> ServerConnector [survival] has connected
+15:00:53 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [lobby] has disconnected
+15:08:07 [INFO] [VEX_Jiarg] disconnected with: §fTimed out
+15:08:07 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+15:08:07 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+15:08:33 [INFO] [VEX_Jiarg,/71.196.130.221:50828] <-> InitialHandler has connected
+15:08:34 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+15:08:37 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+15:08:37 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+15:10:09 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+15:10:09 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+15:10:10 [INFO] [/71.196.130.221:50838] <-> InitialHandler has pinged
+15:35:41 [INFO] [/71.196.130.221:51262] <-> InitialHandler has pinged
+15:35:43 [INFO] [VEX_Jiarg,/71.196.130.221:51264] <-> InitialHandler has connected
+15:35:44 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+15:35:56 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+15:35:56 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+15:45:51 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+15:45:51 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+15:45:51 [INFO] [/71.196.130.221:51416] <-> InitialHandler has pinged
+15:47:34 [INFO] [/71.196.130.221:51485] <-> InitialHandler has pinged
+15:47:35 [INFO] [VEX_Jiarg,/71.196.130.221:51487] <-> InitialHandler has connected
+15:47:36 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+15:47:39 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+15:47:39 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:12:40 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:12:40 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:12:51 [INFO] [/71.196.130.221:51696] <-> InitialHandler has pinged
+16:12:53 [INFO] [VEX_Jiarg,/71.196.130.221:51698] <-> InitialHandler has connected
+16:12:54 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+16:12:59 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+16:13:00 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:13:32 [WARNING] [VEX_Jiarg] -> UpstreamBridge - read timed out
+16:13:32 [INFO] [VEX_Jiarg] disconnected with: §fReadTimeoutException : null
+16:13:32 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:13:32 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:26:37 [INFO] [SovietPhenix] -> UpstreamBridge has disconnected
+16:26:37 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected
+16:26:38 [INFO] [/73.169.77.125:56837] <-> InitialHandler has pinged
+20:40:25 [INFO] [/71.196.130.221:54260] <-> InitialHandler has pinged
+20:40:26 [INFO] [VEX_Jiarg,/71.196.130.221:54263] <-> InitialHandler has connected
+20:40:27 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+20:40:35 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+20:40:35 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+20:43:48 [WARNING] [VEX_Jiarg] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+20:43:48 [INFO] [VEX_Jiarg] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+20:43:48 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+20:43:48 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+20:44:10 [INFO] [/71.196.130.221:54304] <-> InitialHandler has pinged
+20:44:10 [INFO] [VEX_Jiarg,/71.196.130.221:54303] <-> InitialHandler has connected
+20:49:49 [INFO] [VEX_Jiarg,/71.196.130.221:54548] <-> InitialHandler has connected
+20:49:50 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+20:49:57 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+20:49:57 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:21:37 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:21:37 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:21:37 [INFO] [/71.196.130.221:54785] <-> InitialHandler has pinged
+21:21:57 [INFO] [/71.196.130.221:54843] <-> InitialHandler has pinged
+21:21:58 [INFO] [/71.196.130.221:54846] <-> InitialHandler has connected
+21:21:59 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:22:03 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:22:04 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:23:31 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:23:31 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:23:31 [INFO] [/71.196.130.221:54862] <-> InitialHandler has pinged
+21:24:04 [INFO] [/71.196.130.221:54891] <-> InitialHandler has pinged
+21:24:05 [INFO] [VEX_Jiarg,/71.196.130.221:54892] <-> InitialHandler has connected
+21:24:06 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:24:10 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:24:10 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:24:48 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:24:48 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:24:48 [INFO] [/71.196.130.221:54900] <-> InitialHandler has pinged
+21:25:02 [INFO] [/71.196.130.221:54911] <-> InitialHandler has pinged
+21:25:03 [INFO] [/71.196.130.221:54913] <-> InitialHandler has connected
+21:25:03 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:25:07 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:25:07 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:26:15 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:26:15 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:26:16 [INFO] [/71.196.130.221:54931] <-> InitialHandler has pinged
+21:26:22 [INFO] [VEX_Jiarg,/71.196.130.221:54939] <-> InitialHandler has connected
+21:26:23 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:26:28 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:26:28 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:27:38 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:27:38 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:27:38 [INFO] [/71.196.130.221:54957] <-> InitialHandler has pinged
+21:27:47 [INFO] [/71.196.130.221:54966] <-> InitialHandler has pinged
+21:27:48 [INFO] [VEX_Jiarg,/71.196.130.221:54969] <-> InitialHandler has connected
+21:27:48 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:27:53 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:27:53 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:48:29 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:48:29 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:48:30 [INFO] [/71.196.130.221:55121] <-> InitialHandler has pinged
+21:48:31 [INFO] [VEX_Jiarg,/71.196.130.221:55124] <-> InitialHandler has connected
+21:48:32 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:48:37 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:48:37 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:52:25 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+21:52:25 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:52:26 [INFO] [/71.196.130.221:55153] <-> InitialHandler has pinged
+18:27:42 [INFO] [VEX_Jiarg,/71.196.130.221:54342] <-> InitialHandler has connected
+18:27:42 [INFO] [/71.196.130.221:54343] <-> InitialHandler has pinged
+18:27:43 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+18:27:47 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+18:27:47 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+18:51:56 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+18:51:56 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+18:51:56 [INFO] [/71.196.130.221:54442] <-> InitialHandler has pinged
+18:52:50 [INFO] [/71.196.130.221:54508] <-> InitialHandler has pinged
+18:52:51 [INFO] [VEX_Jiarg,/71.196.130.221:54509] <-> InitialHandler has connected
+18:52:52 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+18:52:55 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+18:52:55 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+18:57:11 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+18:57:11 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+18:57:17 [INFO] [/71.196.130.221:54526] <-> InitialHandler has pinged
+18:57:29 [INFO] [VEX_Jiarg,/71.196.130.221:54530] <-> InitialHandler has connected
+18:57:31 [INFO] [/71.196.130.221:54528] <-> InitialHandler has pinged
+18:57:39 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+18:57:43 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+18:57:44 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+19:01:02 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+19:01:02 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+19:01:02 [INFO] [/71.196.130.221:54550] <-> InitialHandler has pinged
+19:01:03 [INFO] [/71.196.130.221:54555] <-> InitialHandler has pinged
+19:01:30 [INFO] [/71.196.130.221:54566] <-> InitialHandler has pinged
+19:01:31 [INFO] [VEX_Jiarg,/71.196.130.221:54567] <-> InitialHandler has connected
+19:01:32 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+19:01:36 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+19:01:36 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+19:45:50 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+19:45:50 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+19:45:52 [INFO] [/71.196.130.221:54727] <-> InitialHandler has pinged
+19:46:26 [INFO] [/71.196.130.221:54736] <-> InitialHandler has pinged
+19:46:27 [INFO] [VEX_Jiarg,/71.196.130.221:54737] <-> InitialHandler has connected
+19:46:28 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+19:46:31 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+19:46:31 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+20:42:31 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+20:42:31 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+21:57:54 [INFO] [/71.196.130.221:55745] <-> InitialHandler has pinged
+21:57:54 [INFO] [VEX_Jiarg,/71.196.130.221:55746] <-> InitialHandler has connected
+21:57:56 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+21:58:18 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+21:58:18 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+21:59:30 [INFO] [/73.169.77.125:57532] <-> InitialHandler has pinged
+21:59:38 [INFO] [SovietPhenix,/73.169.77.125:57543] <-> InitialHandler has connected
+21:59:40 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+22:00:12 [INFO] [SovietPhenix] <-> ServerConnector [survival] has connected
+22:00:13 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [lobby] has disconnected
+00:07:57 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+00:07:57 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+00:07:57 [INFO] [/71.196.130.221:56276] <-> InitialHandler has pinged
+00:08:03 [INFO] [SovietPhenix] -> UpstreamBridge has disconnected
+00:08:03 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected
+00:08:04 [INFO] [/73.169.77.125:58429] <-> InitialHandler has pinged
+10:21:02 [INFO] [/192.168.1.44:57803] <-> InitialHandler has pinged
+10:21:12 [INFO] [/192.168.1.44:57807] <-> InitialHandler has pinged
+10:21:41 [INFO] [dudesentee,/192.168.1.44:57813] <-> InitialHandler has connected
+10:21:44 [INFO] [dudesentee] <-> ServerConnector [hg] has connected
+10:23:23 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+10:23:24 [INFO] [dudesentee] <-> DownstreamBridge <-> [hg] has disconnected
+10:44:29 [INFO] [dudesentee] disconnected with: §fServer closed
+10:44:29 [INFO] [dudesentee] -> UpstreamBridge has disconnected
+10:44:29 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+10:59:20 [INFO] Using standard Java JCE cipher.
+10:59:20 [INFO] Using standard Java compressor.
+10:59:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:697f087:1487
+10:59:21 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:59:21 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Loaded plugin LuckPerms version 5.0.130 by Luck
+10:59:21 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] §b       §3 __    
+10:59:21 [INFO] §b  |    §3|__)   §2LuckPerms §bv5.0.130
+10:59:21 [INFO] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+10:59:21 [INFO] 
+10:59:21 [INFO] [LuckPerms] Loading configuration...
+10:59:21 [WARNING] Exception encountered when loading plugin: LuckPerms
+while parsing a block mapping
+ in 'reader', line 115, column 5:
+        maximum-pool-size: 10
+        ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 140, column 8:
+           useSSL: false
+           ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:572)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:217)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:239)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:239)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:525)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:519)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:111)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:79)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:71)
+	at me.lucko.luckperms.bungee.BungeeConfigAdapter.reload(BungeeConfigAdapter.java:57)
+	at me.lucko.luckperms.bungee.BungeeConfigAdapter.<init>(BungeeConfigAdapter.java:51)
+	at me.lucko.luckperms.bungee.LPBungeePlugin.provideConfigurationAdapter(LPBungeePlugin.java:103)
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:114)
+	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:125)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+10:59:21 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:697f087:1487 by SpigotMC
+10:59:21 [INFO] Listening on /0.0.0.0:25565
+11:07:01 [INFO] [/192.168.1.44:58087] <-> InitialHandler has connected
+11:07:02 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+11:07:03 [INFO] Netty is not using direct IO buffers.
+11:07:33 [INFO] [dudesentee] <-> ServerConnector [survival] has connected
+11:07:34 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+11:07:41 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+11:07:41 [INFO] [dudesentee] <-> DownstreamBridge <-> [survival] has disconnected
+11:10:14 [INFO] [dudesentee] -> UpstreamBridge has disconnected
+11:10:14 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+11:10:14 [INFO] [/192.168.1.44:58100] <-> InitialHandler has pinged
+15:58:44 [INFO] [/192.168.1.44:58335] <-> InitialHandler has pinged
+15:59:00 [INFO] [dudesentee,/192.168.1.44:58337] <-> InitialHandler has connected
+15:59:01 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+16:04:12 [INFO] [dudesentee] <-> ServerConnector [hg] has connected
+16:04:12 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+16:08:27 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+16:08:27 [INFO] [dudesentee] <-> DownstreamBridge <-> [hg] has disconnected
+16:14:35 [INFO] [/71.196.130.221:50401] <-> InitialHandler has pinged
+16:14:36 [INFO] [VEX_Jiarg,/71.196.130.221:50402] <-> InitialHandler has connected
+16:14:39 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+16:14:42 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+16:14:42 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:19:45 [WARNING] [VEX_Jiarg] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+16:19:45 [INFO] [VEX_Jiarg] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+16:19:45 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:19:45 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:23:41 [INFO] [/71.196.130.221:50472] <-> InitialHandler has pinged
+16:23:42 [INFO] [VEX_Jiarg,/71.196.130.221:50474] <-> InitialHandler has connected
+16:23:42 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+16:23:47 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+16:23:48 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:24:08 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:24:08 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:24:11 [INFO] [VEX_Jiarg,/71.196.130.221:50479] <-> InitialHandler has connected
+16:24:12 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+16:24:14 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+16:24:15 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:32:15 [INFO] [/73.169.77.125:63981] <-> InitialHandler has pinged
+16:32:17 [INFO] [SovietPhenix,/73.169.77.125:63982] <-> InitialHandler has connected
+16:32:18 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+16:35:10 [INFO] [dudesentee] <-> ServerConnector [hg] has connected
+16:35:10 [INFO] [dudesentee] <-> DownstreamBridge <-> [lobby] has disconnected
+16:37:19 [INFO] [SovietPhenix] <-> ServerConnector [hg] has connected
+16:37:19 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [lobby] has disconnected
+16:48:23 [INFO] [SovietPhenix] <-> ServerConnector [survival] has connected
+16:48:23 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [hg] has disconnected
+16:51:14 [INFO] [SovietPhenix] <-> ServerConnector [skyblock] has connected
+16:51:15 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected
+16:51:15 [INFO] [dudesentee] <-> ServerConnector [lobby] has connected
+16:51:15 [INFO] [dudesentee] <-> DownstreamBridge <-> [hg] has disconnected
+16:51:48 [INFO] [VEX_Jiarg] disconnected with: §fServer closed
+16:51:48 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:51:48 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:52:35 [INFO] [/71.196.130.221:50745] <-> InitialHandler has pinged
+16:52:44 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+16:52:44 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [skyblock] has disconnected
+16:52:49 [INFO] [VEX_Jiarg,/71.196.130.221:50746] <-> InitialHandler has connected
+16:52:49 [INFO] [VEX_Jiarg] <-> ServerConnector [lobby] has connected
+16:52:56 [INFO] [VEX_Jiarg] <-> ServerConnector [survival] has connected
+16:53:17 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [lobby] has disconnected
+16:53:28 [INFO] [SovietPhenix] <-> ServerConnector [survival] has connected
+16:53:29 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [lobby] has disconnected
+16:54:34 [INFO] [VEX_Jiarg] -> UpstreamBridge has disconnected
+16:54:34 [INFO] [VEX_Jiarg] <-> DownstreamBridge <-> [survival] has disconnected
+16:54:34 [INFO] [/71.196.130.221:50768] <-> InitialHandler has pinged
+16:55:05 [INFO] [SovietPhenix] <-> ServerConnector [lobby] has connected
+16:55:06 [INFO] [SovietPhenix] <-> DownstreamBridge <-> [survival] has disconnected

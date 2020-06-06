@@ -552,6 +552,7 @@
       "minecraft:creeper": "2020-04-06 22:26:48 -0600",
       "minecraft:phantom": "2020-04-06 22:45:34 -0600",
       "minecraft:witch": "2020-05-12 23:24:15 -0600",
+      "minecraft:husk": "2020-06-05 22:46:34 -0600",
       "minecraft:enderman": "2020-05-01 13:07:25 -0600",
       "minecraft:zombie": "2020-04-06 22:27:01 -0600"
     },
@@ -782,6 +783,12 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2020-04-04 13:20:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2020-06-05 23:17:44 -0600"
     },
     "done": true
   },
@@ -1113,6 +1120,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2020-04-04 13:20:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2020-06-05 22:46:49 -0600"
     },
     "done": true
   },
@@ -1976,6 +1989,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2020-04-06 20:19:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2020-06-05 22:46:49 -0600"
     },
     "done": true
   },

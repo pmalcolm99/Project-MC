@@ -1,130 +1,474 @@
-[00:58:13] [Craft Scheduler Thread - 142/INFO]: [BentoBox] Downloading data from GitHub...
-[00:58:13] [Craft Scheduler Thread - 142/INFO]: [BentoBox] Updating the Catalog...
-[00:58:13] [Craft Scheduler Thread - 142/INFO]: [BentoBox] Updating Contributors information...
-[00:58:13] [Craft Scheduler Thread - 142/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[00:58:13] [Craft Scheduler Thread - 142/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[00:58:42] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Downloading data from GitHub...
-[00:58:42] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[02:58:12] [Craft Scheduler Thread - 143/INFO]: [Vault] Checking for Updates ... 
-[02:58:12] [Craft Scheduler Thread - 143/INFO]: [Vault] No new version available
-[02:58:13] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Downloading data from GitHub...
-[02:58:13] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Updating the Catalog...
-[02:58:13] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Updating Contributors information...
-[02:58:13] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[02:58:13] [Craft Scheduler Thread - 140/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[02:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Downloading data from GitHub...
-[02:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[04:58:13] [Craft Scheduler Thread - 144/INFO]: [BentoBox] Downloading data from GitHub...
-[04:58:13] [Craft Scheduler Thread - 144/INFO]: [BentoBox] Updating the Catalog...
-[04:58:13] [Craft Scheduler Thread - 144/INFO]: [BentoBox] Updating Contributors information...
-[04:58:13] [Craft Scheduler Thread - 144/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[04:58:13] [Craft Scheduler Thread - 144/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[04:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Downloading data from GitHub...
-[04:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[06:58:13] [Craft Scheduler Thread - 145/INFO]: [BentoBox] Downloading data from GitHub...
-[06:58:13] [Craft Scheduler Thread - 145/INFO]: [BentoBox] Updating the Catalog...
-[06:58:13] [Craft Scheduler Thread - 145/INFO]: [BentoBox] Updating Contributors information...
-[06:58:13] [Craft Scheduler Thread - 145/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[06:58:14] [Craft Scheduler Thread - 145/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[06:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Downloading data from GitHub...
-[06:58:42] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[08:58:12] [Craft Scheduler Thread - 146/INFO]: [Vault] Checking for Updates ... 
-[08:58:12] [Craft Scheduler Thread - 146/INFO]: [Vault] No new version available
-[08:58:13] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Downloading data from GitHub...
-[08:58:13] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Updating the Catalog...
-[08:58:13] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Updating Contributors information...
-[08:58:13] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[08:58:13] [Craft Scheduler Thread - 143/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[08:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Downloading data from GitHub...
-[08:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[10:58:13] [Craft Scheduler Thread - 147/INFO]: [BentoBox] Downloading data from GitHub...
-[10:58:13] [Craft Scheduler Thread - 147/INFO]: [BentoBox] Updating the Catalog...
-[10:58:13] [Craft Scheduler Thread - 147/INFO]: [BentoBox] Updating Contributors information...
-[10:58:13] [Craft Scheduler Thread - 147/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[10:58:14] [Craft Scheduler Thread - 147/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[10:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Downloading data from GitHub...
-[10:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[12:58:13] [Craft Scheduler Thread - 148/INFO]: [BentoBox] Downloading data from GitHub...
-[12:58:13] [Craft Scheduler Thread - 148/INFO]: [BentoBox] Updating the Catalog...
-[12:58:13] [Craft Scheduler Thread - 148/INFO]: [BentoBox] Updating Contributors information...
-[12:58:13] [Craft Scheduler Thread - 148/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[12:58:14] [Craft Scheduler Thread - 148/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[12:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Downloading data from GitHub...
-[12:58:42] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[14:58:12] [Craft Scheduler Thread - 149/INFO]: [Vault] Checking for Updates ... 
-[14:58:13] [Craft Scheduler Thread - 149/INFO]: [Vault] No new version available
-[14:58:13] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Downloading data from GitHub...
-[14:58:13] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Updating the Catalog...
-[14:58:13] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Updating Contributors information...
-[14:58:13] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[14:58:14] [Craft Scheduler Thread - 146/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[14:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Downloading data from GitHub...
-[14:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[16:58:13] [Craft Scheduler Thread - 150/INFO]: [BentoBox] Downloading data from GitHub...
-[16:58:13] [Craft Scheduler Thread - 150/INFO]: [BentoBox] Updating the Catalog...
-[16:58:13] [Craft Scheduler Thread - 150/INFO]: [BentoBox] Updating Contributors information...
-[16:58:13] [Craft Scheduler Thread - 150/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[16:58:14] [Craft Scheduler Thread - 150/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[16:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Downloading data from GitHub...
-[16:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[18:58:13] [Craft Scheduler Thread - 151/INFO]: [BentoBox] Downloading data from GitHub...
-[18:58:13] [Craft Scheduler Thread - 151/INFO]: [BentoBox] Updating the Catalog...
-[18:58:13] [Craft Scheduler Thread - 151/INFO]: [BentoBox] Updating Contributors information...
-[18:58:13] [Craft Scheduler Thread - 151/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
-[18:58:14] [Craft Scheduler Thread - 151/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[18:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Downloading data from GitHub...
-[18:58:42] [Craft Scheduler Thread - 149/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[20:29:03] [Server thread/INFO]: Stopping the server
-[20:29:03] [Server thread/INFO]: Stopping server
-[20:29:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
-[20:29:03] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[20:29:03] [Server thread/INFO]: [BentoBox] Disabling BentoBox v1.12.0
-[20:29:03] [Server thread/INFO]: [BentoBox] Disabling addons...
-[20:29:03] [Server thread/INFO]: [BentoBox] Disabling BSkyBlock...
-[20:29:03] [Server thread/INFO]: [BentoBox] Disabling Challenges...
-[20:29:04] [Server thread/INFO]: [BentoBox] Disabling Chat...
-[20:29:04] [Server thread/INFO]: [BentoBox] Disabling ControlPanel...
-[20:29:04] [Server thread/INFO]: [BentoBox] Disabling Level...
-[20:29:04] [Server thread/INFO]: [BentoBox] Disabling Limits...
-[20:29:04] [Server thread/INFO]: [BentoBox] Disabling Warps...
-[20:29:04] [Server thread/INFO]: [BentoBox] Addons successfully disabled.
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Disabling MysqlEcoBridge v3.4.1
-[20:29:04] [Server thread/WARN]: [MysqlEcoBridge] Connection is idle or terminated. Reconnecting...
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Attempting to establish a connection to the MySQL server!
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Connection to MySQL server established in 14 ms!
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Saving online players data...
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Data save complete for 0 players.
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] Closing database connection...
-[20:29:04] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge is disabled!
-[20:29:04] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[20:29:04] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:29:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[20:29:04] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[20:29:04] [Server thread/INFO]: [IPortal] Disabling IPortal v1.13
-[20:29:04] [Server thread/INFO]: [iPortal] IPortal has been disabled!
-[20:29:04] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
-[20:29:04] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:29:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
-[20:29:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:29:04] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:29:04] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:29:04] [Server thread/INFO]: Saving players
-[20:29:04] [Server thread/INFO]: Saving worlds
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'bskyblock_world'/minecraft:bskyblock_world
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblock_world): All chunks are saved
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'bskyblock_world_nether'/minecraft:bskyblock_world_nether
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:29:04] [Server thread/INFO]: Saving chunks for level 'bskyblock_world_the_end'/minecraft:bskyblock_world_the_end
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblock_world): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:29:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:00:09] [Server thread/INFO]: Loading properties
+[11:00:11] [Server thread/INFO]: This server is running Paper version git-Paper-334 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[11:00:11] [Server thread/INFO]: Debug logging is disabled
+[11:00:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:00:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:00:12] [Server thread/INFO]: Default game type: SURVIVAL
+[11:00:12] [Server thread/INFO]: Generating keypair
+[11:00:12] [Server thread/INFO]: Starting Minecraft server on *:25570
+[11:00:12] [Server thread/INFO]: Using default channel type
+[11:00:16] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:00:24] [Server thread/WARN]: Legacy plugin MysqlEcoBridge v3.4.1 does not specify an api-version.
+[11:00:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[11:00:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[11:00:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@644e0a01]
+[11:00:26] [Server thread/INFO]: [IPortal] Loading IPortal v1.13
+[11:00:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[11:00:26] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:00:26] [Server thread/INFO]: [MysqlEcoBridge] Loading MysqlEcoBridge v3.4.1
+[11:00:26] [Server thread/INFO]: [BentoBox] Loading BentoBox v1.12.0
+[11:00:26] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[11:00:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:00:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[11:00:26] [Server thread/INFO]:         __    
+[11:00:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[11:00:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:00:26] [Server thread/INFO]: 
+[11:00:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:00:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:00:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:00:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:00:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2187ms)
+[11:00:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[11:00:28] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:00:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:00:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[11:00:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[11:00:30] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[11:00:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:00:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:00:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[11:00:30] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:00:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:00:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:00:30] [Server thread/INFO]: [MysqlEcoBridge] Enabling MysqlEcoBridge v3.4.1*
+[11:00:30] [Server thread/INFO]: [MysqlEcoBridge] Using economy system: Essentials Economy
+[11:00:30] [Server thread/INFO]: [MysqlEcoBridge] Loading the config file...
+[11:00:30] [Server thread/INFO]: [MysqlEcoBridge] Connecting to the database...
+[11:00:30] [Server thread/INFO]: [MysqlEcoBridge] Database connection successful!
+[11:00:31] [Server thread/INFO]: [MysqlEcoBridge] Data save task is enabled.
+[11:00:31] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge loaded successfully!
+[11:00:31] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.12.0
+[11:00:31] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[11:00:33] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[11:00:33] [Server thread/INFO]: [BentoBox] Loading addons...
+[11:00:34] [Server thread/INFO]: [BentoBox] Loaded 8 addons.
+[11:00:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:00:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:00:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:00:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:00:34] [Server thread/INFO]: Preparing level "world"
+[11:00:34] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:00:35] [Server thread/INFO]: Loaded 6 recipes
+[11:00:36] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:00:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:36] [Server thread/INFO]: View Distance: 10
+[11:00:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:36] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:36] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:00:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:00:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:37] [Server thread/INFO]: View Distance: 10
+[11:00:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:00:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:37] [Server thread/INFO]: View Distance: 10
+[11:00:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:37] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:37] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[11:00:37] [Paper RegionFile IO Thread/INFO]: [RegionFile] Using Java 8 DirectByteBuffer cleanup method
+[11:00:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[11:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:38] [Server thread/INFO]: Time elapsed: 889 ms
+[11:00:38] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[11:00:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[11:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:39] [Server thread/INFO]: Time elapsed: 508 ms
+[11:00:39] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[11:00:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[11:00:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:39] [Server thread/INFO]: Time elapsed: 653 ms
+[11:00:39] [Server thread/INFO]: [IPortal] Enabling IPortal v1.13
+[11:00:39] [Server thread/INFO]: [iPortal] portals.yml file successfully Loaded!
+[11:00:39] [Server thread/INFO]: [iPortal] IPortal has been enabled!
+[11:00:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:00:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:00:40] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:00:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[11:00:40] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:00:40] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:00:40] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:00:40] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[11:00:40] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:00:40] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[11:00:40] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:00:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:00:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:00:41] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[11:00:41] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:00:41] [Server thread/INFO]: Running delayed init tasks
+[11:00:41] [Server thread/INFO]: [BentoBox] Enabling addons...
+[11:00:41] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock world ...
+[11:00:41] [Craft Scheduler Thread - 21/INFO]: [Vault] Checking for Updates ... 
+[11:00:41] [Server thread/INFO]: -------- World Settings For [bskyblock_world] --------
+[11:00:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:41] [Server thread/INFO]: View Distance: 10
+[11:00:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:41] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:41] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:42] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world'/minecraft:overworld
+[11:00:42] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world
+[11:00:42] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:43] [Server thread/INFO]: Preparing spawn area: 69%
+[11:00:43] [Server thread/INFO]: Time elapsed: 551 ms
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world) TNT ignition is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lighters are PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lava fire is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Fire spread is UNRESTRICTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world'
+[11:00:43] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock's Nether...
+[11:00:43] [Server thread/INFO]: -------- World Settings For [bskyblock_world_nether] --------
+[11:00:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:43] [Server thread/INFO]: View Distance: 10
+[11:00:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:43] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:43] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world_nether'/minecraft:the_nether
+[11:00:43] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world_nether
+[11:00:43] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:43] [Craft Scheduler Thread - 21/INFO]: [Vault] No new version available
+[11:00:43] [Server thread/INFO]: Time elapsed: 189 ms
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) TNT ignition is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lighters are PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lava fire is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Fire spread is UNRESTRICTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_nether'
+[11:00:43] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock's End World...
+[11:00:43] [Server thread/INFO]: -------- World Settings For [bskyblock_world_the_end] --------
+[11:00:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:43] [Server thread/INFO]: View Distance: 10
+[11:00:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[11:00:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:43] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:43] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:43] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world_the_end'/minecraft:the_end
+[11:00:43] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world_the_end
+[11:00:43] [Server thread/INFO]: Preparing spawn area: 0%
+[11:00:43] [Server thread/INFO]: Time elapsed: 308 ms
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) TNT ignition is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lighters are PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lava fire is PERMITTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Fire spread is UNRESTRICTED.
+[11:00:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_the_end'
+[11:00:43] [Server thread/INFO]: [BentoBox] Enabling BSkyBlock...
+[11:00:43] [Server thread/WARN]: [BentoBox] WorldBorderAPI not found. Download from https://github.com/yannicklamprecht/WorldBorderAPI/releases
+[11:00:43] [Server thread/INFO]: [BentoBox] Border is disabled.
+[11:00:43] [Server thread/INFO]: [BentoBox] Loading challenges...
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling Challenges...
+[11:00:44] [Server thread/INFO]: [BentoBox] [Chat] Hooking team chat into BSkyBlock
+[11:00:44] [Server thread/INFO]: [BentoBox] [Chat] Hooking island chat into BSkyBlock
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling Chat...
+[11:00:44] [Server thread/INFO]: [BentoBox] Loading control panels...
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling ControlPanel...
+[11:00:44] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in config.yml : acidisland_world
+[11:00:44] [Server thread/INFO]: [BentoBox] [Level] Level hooking into BSkyBlock
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling Level...
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Entity limits:
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Limit PIG_ZOMBIE to 15
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Limit ENDERMAN to 5
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Limit CHICKEN to 10
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Limits will apply to BSkyBlock
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Loading default limits
+[11:00:44] [Server thread/INFO]: [BentoBox] [Limits] Limit HOPPER to 10
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling Limits...
+[11:00:44] [Server thread/INFO]: [BentoBox] Loading warps...
+[11:00:44] [Server thread/INFO]: [BentoBox] Enabling Warps...
+[11:00:44] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[11:00:44] [Server thread/INFO]: [BentoBox] Hooking with WorldEdit...
+[11:00:44] [Server thread/INFO]: 
+  ____             _        ____
+ |  _ \           | |      |  _ \             by tastybento and Poslovitch
+ | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2019
+ |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+ | |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.12.0
+ |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 6522ms.
+
+[11:00:44] [Server thread/INFO]: [BentoBox] Added world BSkyBlock (NORMAL)
+[11:00:44] [Server thread/INFO]: Done (34.767s)! For help, type "help"
+[11:00:44] [Server thread/INFO]: Timings Reset
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for BSkyBlock.
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded Blueprint Bundle 'double_island' for BSkyBlock.
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded Blueprint Bundle 'harder_island' for BSkyBlock.
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded blueprint 'double' for BSkyBlock
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded blueprint 'end-island' for BSkyBlock
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded blueprint 'harder' for BSkyBlock
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded blueprint 'island' for BSkyBlock
+[11:00:44] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Loaded blueprint 'nether-island' for BSkyBlock
+[11:00:44] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[11:00:44] [Craft Scheduler Thread - 24/INFO]: [BentoBox] Downloading data from GitHub...
+[11:00:44] [Craft Scheduler Thread - 24/INFO]: [BentoBox] Updating the Catalog...
+[11:00:45] [Craft Scheduler Thread - 24/INFO]: [BentoBox] Updating Contributors information...
+[11:00:45] [Craft Scheduler Thread - 24/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
+[11:00:52] [Craft Scheduler Thread - 24/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[11:01:13] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Downloading data from GitHub...
+[11:01:13] [Craft Scheduler Thread - 14/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[13:00:44] [Craft Scheduler Thread - 26/INFO]: [BentoBox] Downloading data from GitHub...
+[13:00:44] [Craft Scheduler Thread - 26/INFO]: [BentoBox] Updating the Catalog...
+[13:00:44] [Craft Scheduler Thread - 26/INFO]: [BentoBox] Updating Contributors information...
+[13:00:44] [Craft Scheduler Thread - 26/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
+[13:00:44] [Craft Scheduler Thread - 26/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[13:01:13] [Craft Scheduler Thread - 25/INFO]: [BentoBox] Downloading data from GitHub...
+[13:01:13] [Craft Scheduler Thread - 25/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[15:00:44] [Craft Scheduler Thread - 27/INFO]: [BentoBox] Downloading data from GitHub...
+[15:00:44] [Craft Scheduler Thread - 27/INFO]: [BentoBox] Updating the Catalog...
+[15:00:44] [Craft Scheduler Thread - 27/INFO]: [BentoBox] Updating Contributors information...
+[15:00:44] [Craft Scheduler Thread - 27/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
+[15:00:44] [Craft Scheduler Thread - 27/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[15:01:13] [Craft Scheduler Thread - 25/INFO]: [BentoBox] Downloading data from GitHub...
+[15:01:13] [Craft Scheduler Thread - 25/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[16:51:14] [User Authenticator #1/INFO]: UUID of player SovietPhenix is 2943bbcd-92cf-3f64-ae2a-98d36ef37551
+[16:51:15] [Server thread/INFO]: SovietPhenix joined the game
+[16:51:15] [Server thread/INFO]: SovietPhenix[/127.0.0.1:61171] logged in with entity id 27 at ([bskyblock_world]9.279177302088742, 107.0, 14.962372525049432)
+[16:51:16] [Craft Scheduler Thread - 25/INFO]: [MysqlEcoBridge] Saving online players data...
+[16:51:16] [Craft Scheduler Thread - 25/INFO]: [MysqlEcoBridge] Data save complete for 1 players.
+[16:52:44] [Server thread/INFO]: SovietPhenix lost connection: Disconnected
+[16:52:44] [Server thread/INFO]: SovietPhenix left the game
+[17:00:43] [Craft Scheduler Thread - 31/INFO]: [Vault] Checking for Updates ... 
+[17:00:44] [Craft Scheduler Thread - 31/INFO]: [Vault] No new version available
+[17:00:44] [Craft Scheduler Thread - 29/INFO]: [BentoBox] Downloading data from GitHub...
+[17:00:44] [Craft Scheduler Thread - 29/INFO]: [BentoBox] Updating the Catalog...
+[17:00:44] [Craft Scheduler Thread - 29/INFO]: [BentoBox] Updating Contributors information...
+[17:00:44] [Craft Scheduler Thread - 29/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel, BentoBoxWorld/Level, BentoBoxWorld/Warps, BentoBoxWorld/Biomes, BentoBoxWorld/Limits, BentoBoxWorld/IslandFly, BentoBoxWorld/invSwitcher, BentoBoxWorld/TwerkingForTrees, BentoBoxWorld/VoidPortals, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Greenhouses, BentoBoxWorld/DimensionalTrees, BentoBoxWorld/CauldronWitchery, BentoBoxWorld/Likes, BentoBoxWorld/AcidIsland, BentoBoxWorld/SkyGrid, BentoBoxWorld/CaveBlock
+[17:00:44] [Craft Scheduler Thread - 29/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[17:01:13] [Craft Scheduler Thread - 31/INFO]: [BentoBox] Downloading data from GitHub...
+[17:01:13] [Craft Scheduler Thread - 31/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[17:18:14] [Server thread/INFO]: Stopping the server
+[17:18:14] [Server thread/INFO]: Stopping server
+[17:18:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[17:18:14] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling BentoBox v1.12.0
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling addons...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling BSkyBlock...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling Challenges...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling Chat...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling ControlPanel...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling Level...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling Limits...
+[17:18:14] [Server thread/INFO]: [BentoBox] Disabling Warps...
+[17:18:14] [Server thread/INFO]: [BentoBox] Addons successfully disabled.
+[17:18:14] [Server thread/INFO]: [MysqlEcoBridge] Disabling MysqlEcoBridge v3.4.1
+[17:18:14] [Server thread/INFO]: [MysqlEcoBridge] Saving online players data...
+[17:18:14] [Server thread/INFO]: [MysqlEcoBridge] Data save complete for 0 players.
+[17:18:14] [Server thread/INFO]: [MysqlEcoBridge] Closing database connection...
+[17:18:14] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge is disabled!
+[17:18:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[17:18:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:18:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[17:18:14] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:18:14] [Server thread/INFO]: [IPortal] Disabling IPortal v1.13
+[17:18:14] [Server thread/INFO]: [iPortal] IPortal has been disabled!
+[17:18:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[17:18:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:18:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[17:18:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:18:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:18:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:18:14] [Server thread/INFO]: Saving players
+[17:18:14] [Server thread/INFO]: Saving worlds
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'bskyblock_world'/minecraft:bskyblock_world
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblock_world): All chunks are saved
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'bskyblock_world_nether'/minecraft:bskyblock_world_nether
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:14] [Server thread/INFO]: Saving chunks for level 'bskyblock_world_the_end'/minecraft:bskyblock_world_the_end
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblock_world): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:14] [Server thread/INFO]: Flushing Chunk IO
+[17:18:14] [Server thread/INFO]: Closing Thread Pool
+[17:18:14] [Server thread/INFO]: Closing Server
