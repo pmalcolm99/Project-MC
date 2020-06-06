@@ -10,7 +10,7 @@ worlds:
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: PEACEFUL
-    spawning: &id007
+    spawning: &id010
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
@@ -22,7 +22,7 @@ worlds:
         spawn: 'false'
         spawnrate: '-1'
         exceptions: []
-    entryfee: &id008
+    entryfee: &id011
       ==: MVEntryFee
       amount: '0.0'
     hunger: 'false'
@@ -40,7 +40,7 @@ worlds:
       yaw: 249.15028
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: &id009 []
+    worldBlacklist: &id012 []
     environment: NORMAL
     seed: '9180187788460369668'
     generator: 'null'
@@ -57,8 +57,8 @@ worlds:
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: PEACEFUL
-    spawning: *id007
-    entryfee: *id008
+    spawning: *id010
+    entryfee: *id011
     hunger: 'false'
     autoHeal: 'true'
     adjustSpawn: 'false'
@@ -74,7 +74,7 @@ worlds:
       yaw: 268.20056
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: *id009
+    worldBlacklist: *id012
     environment: NORMAL
     seed: '9180187788460369668'
     generator: 'null'
@@ -279,8 +279,8 @@ worlds:
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: PEACEFUL
-    spawning: *id007
-    entryfee: *id008
+    spawning: *id010
+    entryfee: *id011
     hunger: 'false'
     autoHeal: 'true'
     adjustSpawn: 'false'
@@ -296,7 +296,7 @@ worlds:
       yaw: 258.00085
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: *id009
+    worldBlacklist: *id012
     environment: NORMAL
     seed: '9180187788460369668'
     generator: 'null'

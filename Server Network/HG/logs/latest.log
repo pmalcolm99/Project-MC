@@ -481,3 +481,55 @@
 [16:52:37] [Server thread/INFO]: Timings Reset
 [16:52:37] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
 [16:52:38] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
+[17:18:10] [Server thread/INFO]: Stopping the server
+[17:18:10] [Server thread/INFO]: Stopping server
+[17:18:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[17:18:10] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
+[17:18:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[17:18:10] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[17:18:10] [Server thread/INFO]: [MysqlEcoBridge] Disabling MysqlEcoBridge v3.4.1
+[17:18:10] [Server thread/INFO]: [MysqlEcoBridge] Saving online players data...
+[17:18:10] [Server thread/INFO]: [MysqlEcoBridge] Data save complete for 0 players.
+[17:18:10] [Server thread/INFO]: [MysqlEcoBridge] Closing database connection...
+[17:18:10] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge is disabled!
+[17:18:10] [Server thread/INFO]: [IPortal] Disabling IPortal v1.13
+[17:18:10] [Server thread/INFO]: [iPortal] IPortal has been disabled!
+[17:18:10] [Server thread/INFO]: [HungerGames] Disabling HungerGames v4.13.8
+[17:18:10] [Server thread/INFO]: [HungerGames] HungerGames has been disabled!
+[17:18:10] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[17:18:10] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:18:10] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[17:18:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[17:18:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:18:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[17:18:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:18:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[17:18:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:18:10] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:18:11] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:18:11] [Server thread/INFO]: Saving players
+[17:18:11] [Server thread/INFO]: Saving worlds
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'void'/minecraft:void
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'hglobby'/minecraft:hglobby
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (hglobby): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'oreCity'/minecraft:orecity
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (oreCity): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'Paradise'/minecraft:paradise
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (Paradise): All chunks are saved
+[17:18:11] [Server thread/INFO]: Saving chunks for level 'hg'/minecraft:hg
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (hg): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (hglobby): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (oreCity): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (Paradise): All chunks are saved
+[17:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (hg): All chunks are saved
