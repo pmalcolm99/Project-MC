@@ -1,7 +1,7 @@
 lastAccountName: VEX_Jiarg
 timestamps:
-  login: 1590777633588
-  logout: 1590784690304
+  login: 1591483998720
+  logout: 1591484074587
   lastteleport: 1590782199999
 ipAddress: 127.0.0.1
 lastlocation:
@@ -13,11 +13,11 @@ lastlocation:
   pitch: 9.29939
 logoutlocation:
   world: world
-  x: 548.9256713304453
-  y: 79.0
-  z: -363.323900560746
-  yaw: 186.39442
-  pitch: -13.651082
+  x: 538.9299574718791
+  y: 63.0
+  z: -307.4108412748248
+  yaw: -185.30223
+  pitch: 24.598772
 homes:
   home:
     world: world
