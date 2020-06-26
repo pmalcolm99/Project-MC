@@ -1,23 +1,23 @@
 lastAccountName: dudesentee
 timestamps:
-  login: 1591463254782
-  logout: 1591463261382
+  login: 1592018247256
+  logout: 1592019281846
   lastteleport: 1590944107871
 ipAddress: 127.0.0.1
 logoutlocation:
-  world: SurvivalStructures
-  x: -173.6615866932147
-  y: 4.0
-  z: -191.48463006809615
-  yaw: -26.700075
-  pitch: 7.9499784
+  world: world
+  x: 2633.5700519704333
+  y: 75.99955961239371
+  z: 8104.28529933745
+  yaw: -82.20148
+  pitch: 16.950008
 lastlocation:
   world: world
-  x: -1240.5
-  y: 38.0
-  z: 294.5
-  yaw: -80.43229
-  pitch: -5.2494245
+  x: 2633.5700519704333
+  y: 75.99955961239371
+  z: 8104.28529933745
+  yaw: -82.20148
+  pitch: 16.950008
 money: '222.0'
 afk: false
 homes:

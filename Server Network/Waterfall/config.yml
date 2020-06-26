@@ -1,0 +1,66 @@
+server_connect_timeout: 5000
+listeners:
+- query_port: 25565
+  motd: '&1How much is too much?'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pserv.us: lobby
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 10
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+log_pings: true
+connection_throttle_limit: 3
+prevent_proxy_connections: false
+timeout: 30000
+player_limit: -1
+ip_forward: false
+groups:
+  md_5:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+stats: ac4d70c4-913a-4ed9-be92-d8b569b6c7ac
+online_mode: true
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: '&1How much is too much?'
+    address: localhost:25566
+    restricted: false
+  survival:
+    motd: test server
+    address: localhost:25567
+    restricted: false
+  hg:
+    motd: test server
+    address: localhost:25568
+    restricted: false
+  plotme:
+    motd: test server
+    address: localhost:25569
+    restricted: false
+  skyblock:
+    motd: Sky Block
+    address: localhost:25570
+    restricted: false

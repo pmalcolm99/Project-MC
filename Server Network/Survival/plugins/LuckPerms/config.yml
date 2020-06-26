@@ -83,7 +83,7 @@ use-server-uuid-cache: false
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: h2
+storage-method: MySQL
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -95,15 +95,15 @@ data:
   # - The standard DB engine port is used by default
   #   (MySQL: 3306, PostgreSQL: 5432, MongoDB: 27017)
   # - Specify as "host:port" if differs
-  address: localhost
+  address: 192.168.1.200
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: minecraft
+  database: perms
 
   # Credentials for the database.
-  username: root
-  password: ''
+  username: server
+  password: 'Cetaphil08'
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
@@ -136,6 +136,8 @@ data:
     properties:
       useUnicode: true
       characterEncoding: utf8
+      useSSL: false
+      verifyServerCertificate: false
 
   # The prefix for all LuckPerms SQL tables.
   # - Change this is you want to use different tables for different servers.
@@ -190,7 +192,7 @@ sync-minutes: -1
 # - When using a file-based storage type, LuckPerms can monitor the data files for changes, and
 #   automatically update when changes are detected.
 # - If you don't want this feature to be active, set this option to false.
-watch-files: true
+watch-files: false
 
 # Define which messaging service should be used by the plugin.
 #
